@@ -1,6 +1,24 @@
 module.exports = {
   extends: ['prettier', 'eslint:recommended', 'plugin:react/recommended'],
   plugins: ['react', 'react-hooks', 'react-native', 'import', 'redux-saga'],
+  parser: 'babel-eslint',
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+      legacyDecorators: true,
+      experimentalObjectRestSpread: true,
+    },
+  },
+  env: {
+    es6: true,
+    browser: true,
+    node: true,
+    jquery: true,
+    mocha: true,
+    jest: true,
+  },
   rules: {
     // General
 
