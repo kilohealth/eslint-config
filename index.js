@@ -120,7 +120,6 @@ module.exports = {
     'no-useless-concat': 'error',
     'no-with': 'error',
     'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
-    radix: 'warn',
     'require-await': 'off',
     'require-unicode-regexp': 'off',
 
