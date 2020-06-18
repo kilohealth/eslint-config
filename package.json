@@ -1,5 +1,5 @@
 {
-  "name": "@kilohealth/rn-eslint-config",
+  "name": "@kilohealth/eslint-config-rn",
   "version": "0.0.1",
   "description": "React Native ESLint config",
   "homepage": "",
