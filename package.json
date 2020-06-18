@@ -1,0 +1,36 @@
+{
+  "name": "@kilohealth/rn-eslint-config",
+  "version": "0.0.1",
+  "description": "React Native ESLint config",
+  "homepage": "",
+  "repository": "",
+  "summary": "",
+  "author": "Kilo.Health",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "react-native",
+    "eslint",
+    "eslintconfig",
+    "prettier"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.2.0",
+    "eslint-config-prettier": ">=6.11.0",
+    "eslint-plugin-import": ">=2.20.1",
+    "eslint-plugin-react": ">=7.20.0",
+    "eslint-plugin-react-hooks": ">=4.0.4",
+    "eslint-plugin-react-native": ">=3.8.1",
+    "prettier": ">=2.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "eslint-plugin-react-native": "^3.8.1",
+    "prettier": "^2.0.5"
+  }
+}
