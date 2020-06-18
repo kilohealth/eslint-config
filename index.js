@@ -180,7 +180,7 @@ module.exports = {
     'react/require-render-return': 'error',
     'react/self-closing-comp': 1,
     'react/sort-comp': [
-      2,
+      1,
       {
         order: [
           'propTypes',
