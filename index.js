@@ -1,10 +1,5 @@
 module.exports = {
-  extends: [
-    'prettier',
-    'eslint:recommended',
-    'plugin:react/recommended',
-    '@react-native-community/eslint-config',
-  ],
+  extends: ['prettier', 'eslint:recommended', 'plugin:react/recommended'],
   plugins: ['react', 'react-hooks', 'react-native', 'import', 'redux-saga'],
   parser: 'babel-eslint',
   parserOptions: {
