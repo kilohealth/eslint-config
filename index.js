@@ -14,7 +14,7 @@ module.exports = {
     'no-underscore-dangle': 2,
     'no-useless-escape': 1,
     'no-var': 2,
-    quotes: ['error', 'single', { allowTemplateLiterals: true }],
+    quotes: ['error', 'single', { allowTemplateLiterals: true, avoidEscape: true }],
 
     // Experimental
 
