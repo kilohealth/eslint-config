@@ -37,7 +37,7 @@ module.exports = {
     // Experimental
 
     curly: ['error', 'multi-line'], // multiline
-    'default-case': ['error', { commentPattern: '^no default$' }],
+    'default-case': ['warn', { commentPattern: '^no default$' }],
     'max-classes-per-file': ['error', 1],
     'no-case-declarations': 'off',
     'no-empty': 'off',
