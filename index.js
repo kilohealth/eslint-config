@@ -184,6 +184,7 @@ module.exports = {
         order: [
           'propTypes',
           'defaultProps',
+          'static-variables',
           'state',
           '/^.+Ref|Refs$/',
           '/^animated.+$/',
