@@ -39,12 +39,8 @@ module.exports = {
     curly: ['error', 'multi-line'], // multiline
     'default-case': ['error', { commentPattern: '^no default$' }],
     'max-classes-per-file': ['error', 1],
-    'no-empty-function': [
-      'error',
-      {
-        allow: ['arrowFunctions', 'functions', 'methods'],
-      },
-    ],
+    'no-case-declarations': 'off',
+    'no-empty': 'off',
     'no-empty-pattern': 'error',
     'no-eval': 'error',
     'no-extend-native': 'error',
@@ -111,7 +107,6 @@ module.exports = {
         message: 'Use the exponentiation operator (**) instead.',
       },
     ],
-    'no-return-assign': ['error', 'always'],
     'no-return-await': 'warn',
     'no-self-assign': [
       'warn',
@@ -123,7 +118,6 @@ module.exports = {
     'no-sequences': 'error',
     'no-throw-literal': 'error',
     'no-useless-concat': 'error',
-    'no-useless-return': 'error',
     'no-with': 'error',
     'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
     radix: 'warn',
