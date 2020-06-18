@@ -39,7 +39,6 @@ module.exports = {
     curly: ['error', 'multi-line'], // multiline
     'default-case': ['error', { commentPattern: '^no default$' }],
     'max-classes-per-file': ['error', 1],
-    'no-else-return': ['warn', { allowElseIf: true }],
     'no-empty-function': [
       'error',
       {
@@ -50,7 +49,6 @@ module.exports = {
     'no-eval': 'error',
     'no-extend-native': 'error',
     'no-extra-label': 'error',
-    'no-fallthrough': 'error',
     'no-floating-decimal': 'error',
     'no-global-assign': ['error', { exceptions: [] }],
     'no-implied-eval': 'error',
