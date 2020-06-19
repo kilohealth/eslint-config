@@ -259,6 +259,8 @@ module.exports = {
         jsx: 'never',
         ts: 'never',
         tsx: 'never',
+        'android.js': 'never',
+        'ios.js': 'never',
       },
     ],
     'import/no-duplicates': 'error',
