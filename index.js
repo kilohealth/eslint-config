@@ -174,7 +174,7 @@ module.exports = {
     'react/no-will-update-set-state': 'warn',
     'react/prefer-es6-class': 1,
     'react/prefer-stateless-function': ['warn', { ignorePureComponents: true }],
-    'react/prop-types': 2,
+    'react/prop-types': 1,
     'react/react-in-jsx-scope': 1,
     'react/require-render-return': 'error',
     'react/self-closing-comp': 1,
