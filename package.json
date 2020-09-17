@@ -8,7 +8,11 @@
   "author": "Kilo.Health",
   "license": "MIT",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "major": "yarn version --major && yarn release:major",
+    "minor": "yarn version --minor && yarn release:minor",
+    "patch": "yarn version --patch && yarn release:patch"
+  },
   "keywords": [
     "react-native",
     "eslint",
@@ -32,6 +36,7 @@
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4.0.4",
     "eslint-plugin-react-native": "^3.8.1",
+    "generate-changelog": "^1.8.0",
     "prettier": "^2.0.5"
   }
 }
