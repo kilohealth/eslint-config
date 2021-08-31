@@ -79,12 +79,14 @@ module.exports = {
     'no-invalid-this': OFF,
     'no-labels': [ERROR, { allowLoop: false, allowSwitch: false }],
     'no-loop-func': ERROR,
+    'no-lone-blocks': ERROR,
     'no-multi-spaces': [
       ERROR,
       {
         ignoreEOLComments: false,
       },
     ],
+    'no-nested-ternary': WARNING,
     'no-new-func': ERROR,
     'no-new-wrappers': ERROR,
     'no-new': ERROR,
@@ -213,6 +215,7 @@ module.exports = {
       files: ['*.ts', '*.tsx'],
       parser: '@typescript-eslint/parser',
       plugins: ['@typescript-eslint/eslint-plugin'],
+      extends: ['plugin:@typescript-eslint/recommended'],
       settings: {
         'import/extensions': [...extensions.TS, ...extensions.JS],
         'import/parsers': {
@@ -225,7 +228,13 @@ module.exports = {
         },
       },
       rules: {
-        '@typescript-eslint/no-unused-vars': [ERROR, NO_UNUSED_VARS_OPTIONS],
+        '@typescript-eslint/ban-types': OFF,
+        '@typescript-eslint/explicit-function-return-type': OFF,
+        '@typescript-eslint/explicit-module-boundary-types': OFF,
+        '@typescript-eslint/no-explicit-any': WARNING,
+        '@typescript-eslint/no-non-null-assertion': ERROR,
+        '@typescript-eslint/no-unused-vars': WARNING,
+        '@typescript-eslint/no-use-before-define': OFF,
         '@typescript-eslint/prefer-optional-chain': ERROR,
         'no-dupe-class-members': OFF,
         'no-unused-vars': OFF,
