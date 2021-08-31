@@ -57,6 +57,7 @@ module.exports = {
     'import/no-default-export': OFF,
     'import/no-duplicates': ERROR,
     'import/no-dynamic-require': OFF,
+    'import/no-named-as-default-member': OFF,
     'import/no-relative-parent-imports': OFF,
     'import/no-self-import': ERROR,
     'import/no-useless-path-segments': ERROR,
