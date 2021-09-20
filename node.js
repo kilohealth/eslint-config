@@ -237,6 +237,14 @@ module.exports = {
         '@typescript-eslint/no-unused-vars': WARNING,
         '@typescript-eslint/no-use-before-define': OFF,
         '@typescript-eslint/prefer-optional-chain': ERROR,
+        '@typescript-eslint/strict-boolean-expressions': [
+          ERROR,
+          {
+            allowNullableBoolean: true,
+            allowNumber: false,
+            allowString: false,
+          },
+        ],
         'no-dupe-class-members': OFF,
         'no-unused-vars': OFF,
       },
