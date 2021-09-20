@@ -20,7 +20,7 @@ module.exports = {
       'asc',
       { ignoreClassNames: false, ignoreStyleProperties: false },
     ],
-    'react-native/split-platform-components': OFF,
+    'react-native/split-platform-components': OFF
   },
   overrides: [
     {
