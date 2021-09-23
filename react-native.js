@@ -13,14 +13,13 @@ module.exports = {
   rules: {
     'react-native/no-color-literals': WARNING,
     'react-native/no-inline-styles': WARNING,
-    'react-native/no-raw-text': ERROR,
     'react-native/no-unused-styles': ERROR,
     'react-native/sort-styles': [
       WARNING,
       'asc',
       { ignoreClassNames: false, ignoreStyleProperties: false },
     ],
-    'react-native/split-platform-components': OFF
+    'react-native/split-platform-components': OFF,
   },
   overrides: [
     {
