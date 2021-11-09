@@ -19,17 +19,17 @@ Extend your eslint config in your `.eslintrc`:
 ### React Native
 
 ```
-"extends": ["@kilohealth/eslint-config"]
+"extends": "@kilohealth"
 ```
 
 ### React
 
 ```
-"extends": ["@kilohealth/eslint-config/react"]
+"extends": "@kilohealth/eslint-config/react"
 ```
 
 ### Node
 
 ```
-"extends": ["@kilohealth/eslint-config/node"]
+"extends": "@kilohealth/eslint-config/node"
 ```
