@@ -1,6 +1,6 @@
 {
   "name": "@kilohealth/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint preset",
   "packageManager": "yarn@3.2.2",
   "homepage": "",
