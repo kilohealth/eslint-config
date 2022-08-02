@@ -2,6 +2,16 @@
 #
 .DS_Store
 
+# Yarn berry
+#
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
 # Xcode
 #
 build/
@@ -28,7 +38,6 @@ Pods/
 
 # Android/IntelliJ
 #
-build/
 .idea
 .gradle
 local.properties
@@ -46,7 +55,6 @@ yarn-error.log
 # BUCK
 buck-out/
 \.buckd/
-!debug.keystore
 
 # fastlane
 #

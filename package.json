@@ -2,6 +2,7 @@
   "name": "@kilohealth/eslint-config",
   "version": "1.0.0",
   "description": "Eslint preset",
+  "packageManager": "yarn@3.2.2",
   "homepage": "",
   "repository": "",
   "summary": "",
@@ -22,18 +23,18 @@
     "node"
   ],
   "dependencies": {
+    "eslint": "^7",
     "eslint-config-prettier": "^8",
     "eslint-plugin-import": "^2",
     "eslint-plugin-jest": "^24",
     "eslint-plugin-prettier": "^4",
     "eslint-plugin-promise": "^5",
-    "eslint-plugin-react-hooks": "^4",
-    "eslint-plugin-react-native-a11y": "^2",
-    "eslint-plugin-react-native": "^3",
     "eslint-plugin-react": "^7",
+    "eslint-plugin-react-hooks": "^4",
+    "eslint-plugin-react-native": "^3",
+    "eslint-plugin-react-native-a11y": "^3",
     "eslint-plugin-redux-saga": "^1",
     "eslint-restricted-globals": "^0.2.0",
-    "eslint": "^7",
     "prettier": "^2"
   },
   "devDependencies": {
@@ -50,7 +51,7 @@
     "eslint-plugin-react-hooks": "^4",
     "eslint-plugin-redux-saga": "^1",
     "eslint-restricted-globals": "^0.2.0",
-    "redux-saga": "^1",
-    "prettier": "^2"
+    "prettier": "^2",
+    "redux-saga": "^1"
   }
 }
