@@ -17,6 +17,7 @@ react-native-iap-*.tgz
 .eslintignore
 .prettierrc.js
 .gitattributes
+.yarnrc.yml
 
 # Built application files
 android/*/build/
