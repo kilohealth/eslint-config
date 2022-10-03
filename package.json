@@ -41,9 +41,13 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "generate-changelog": "^1",
     "husky": "^8.0.1",
     "pinst": "^3.0.0",
+    "semantic-release": "^19.0.5",
+    "semantic-release-slack-bot": "^3.5.3",
     "sort-package-json": "^2.0.0"
   },
   "peerDependencies": {
