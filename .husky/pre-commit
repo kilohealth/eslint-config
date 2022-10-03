@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+printf "\nChecking if package.json is sorted\n" &&
+printf "Run   'yarn sort-all-package-json'    if package json is not sorted!\n\n" &&
+yarn sort-package-json "./package.json" "packages/*/package.json" --check

@@ -2,13 +2,6 @@
   "name": "@kilohealth/eslint-config",
   "version": "1.0.1",
   "description": "Eslint preset",
-  "packageManager": "yarn@3.2.2",
-  "homepage": "https://github.com/kilohealth/eslint-config",
-  "repository": "https://github.com/kilohealth/eslint-config",
-  "summary": "",
-  "author": "Kilo.Health",
-  "license": "MIT",
-  "main": "./react-native.js",
   "keywords": [
     "react-native",
     "eslint",
@@ -17,6 +10,11 @@
     "react",
     "node"
   ],
+  "homepage": "https://github.com/kilohealth/eslint-config",
+  "repository": "https://github.com/kilohealth/eslint-config",
+  "license": "MIT",
+  "author": "Kilo.Health",
+  "main": "./react-native.js",
   "devDependencies": {
     "eslint": "^7",
     "eslint-config-prettier": "^8",
@@ -44,5 +42,6 @@
     "eslint-restricted-globals": "^0.2.0",
     "prettier": "^2",
     "redux-saga": "^1"
-  }
+  },
+  "packageManager": "yarn@3.2.2"
 }
