@@ -16,6 +16,8 @@
   "author": "Kilo.Health",
   "main": "./react-native.js",
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "eslint": "^7",
     "eslint-config-prettier": "^8",
     "eslint-plugin-import": "^2",
@@ -27,7 +29,10 @@
     "eslint-plugin-redux-saga": "^1",
     "eslint-restricted-globals": "^0.2.0",
     "prettier": "^2",
-    "redux-saga": "^1"
+    "redux-saga": "^1",
+    "semantic-release": "^19.0.5",
+    "semantic-release-monorepo": "^7.0.5",
+    "semantic-release-slack-bot": "^3.5.3"
   },
   "peerDependencies": {
     "eslint": "^7",
