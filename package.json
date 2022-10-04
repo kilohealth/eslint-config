@@ -1,19 +1,7 @@
 {
-  "name": "@kilohealth/eslint-config",
-  "version": "1.0.1",
-  "description": "Eslint preset",
+  "name": "kilohealth",
+  "private": true,
   "packageManager": "yarn@3.2.2",
-  "homepage": "https://github.com/kilohealth/eslint-config",
-  "repository": "https://github.com/kilohealth/eslint-config",
-  "summary": "",
-  "author": "Kilo.Health",
-  "license": "MIT",
-  "main": "./react-native.js",
-  "scripts": {
-    "major": "yarn version --major && yarn release:major",
-    "minor": "yarn version --minor && yarn release:minor",
-    "patch": "yarn version --patch && yarn release:patch"
-  },
   "keywords": [
     "react-native",
     "eslint",
@@ -22,36 +10,10 @@
     "react",
     "node"
   ],
-  "dependencies": {
-    "eslint": "^7",
-    "eslint-config-prettier": "^8",
-    "eslint-plugin-import": "^2",
-    "eslint-plugin-jest": "^24",
-    "eslint-plugin-prettier": "^4",
-    "eslint-plugin-promise": "^5",
-    "eslint-plugin-react": "^7",
-    "eslint-plugin-react-hooks": "^4",
-    "eslint-plugin-react-native": "^3",
-    "eslint-plugin-react-native-a11y": "^3",
-    "eslint-plugin-redux-saga": "^1",
-    "eslint-restricted-globals": "^0.2.0",
-    "prettier": "^2"
-  },
   "devDependencies": {
-    "generate-changelog": "^1"
+    "lerna": "^4.0.0"
   },
-  "peerDependencies": {
-    "eslint": "^7",
-    "eslint-config-prettier": "^8",
-    "eslint-plugin-import": "^2",
-    "eslint-plugin-jest": "^24",
-    "eslint-plugin-prettier": "^4",
-    "eslint-plugin-promise": "^5",
-    "eslint-plugin-react": "^7",
-    "eslint-plugin-react-hooks": "^4",
-    "eslint-plugin-redux-saga": "^1",
-    "eslint-restricted-globals": "^0.2.0",
-    "prettier": "^2",
-    "redux-saga": "^1"
-  }
+  "workspaces": [
+    "packages/*"
+  ]
 }
