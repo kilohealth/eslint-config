@@ -13,6 +13,7 @@
     "packages/*"
   ],
   "scripts": {
+    "postinstall": "husky install",
     "sort-all-package-json": "yarn sort-package-json \"package.json\" \"packages/*/package.json\""
   },
   "devDependencies": {
@@ -20,7 +21,6 @@
     "@commitlint/config-conventional": "^17.1.0",
     "husky": "^8.0.1",
     "lerna": "^4.0.0",
-    "pinst": "^3.0.0",
     "sort-package-json": "^2.0.0"
   },
   "packageManager": "yarn@3.2.2"
