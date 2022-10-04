@@ -1,0 +1,13 @@
+{
+  "name": "@kilohealth/eslint-config-redux-saga",
+  "main": "./react-native.js",
+  "devDependencies": {
+    "eslint-plugin-redux-saga": "^1",
+    "redux-saga": "^1"
+  },
+  "peerDependencies": {
+    "eslint-plugin-redux-saga": "^1",
+    "redux-saga": "^1"
+  },
+  "packageManager": "yarn@3.2.2"
+}
