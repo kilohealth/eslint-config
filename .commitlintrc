@@ -3,6 +3,6 @@
     '@commitlint/config-conventional'
   ],
   "rules": {
-    "scope-enum": [ 2, 'always', [ 'release' ] ],
+    "scope-enum": [ 2, 'always', [ 'release', 'eslint', 'eslint-saga' ] ],
   },
 }
