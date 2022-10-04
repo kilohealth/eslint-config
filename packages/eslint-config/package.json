@@ -26,10 +26,8 @@
     "eslint-plugin-promise": "^5",
     "eslint-plugin-react": "^7",
     "eslint-plugin-react-hooks": "^4",
-    "eslint-plugin-redux-saga": "^1",
     "eslint-restricted-globals": "^0.2.0",
     "prettier": "^2",
-    "redux-saga": "^1",
     "semantic-release": "^19.0.5",
     "semantic-release-monorepo": "^7.0.5",
     "semantic-release-slack-bot": "^3.5.3"
@@ -43,10 +41,8 @@
     "eslint-plugin-promise": "^5",
     "eslint-plugin-react": "^7",
     "eslint-plugin-react-hooks": "^4",
-    "eslint-plugin-redux-saga": "^1",
     "eslint-restricted-globals": "^0.2.0",
-    "prettier": "^2",
-    "redux-saga": "^1"
+    "prettier": "^2"
   },
   "packageManager": "yarn@3.2.2"
 }

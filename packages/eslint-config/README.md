@@ -10,7 +10,7 @@ Kilo.Health ESLint config for React Native, React and Node.js projects.
 
 ### Install dependencies
 
-`yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-import eslint-plugin-jest eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-native eslint-plugin-react-native-a11y eslint-plugin-redux-saga eslint-restricted-globals prettier`
+`yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-import eslint-plugin-jest eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-native eslint-plugin-react-native-a11y eslint-restricted-globals prettier`
 
 ## Usage
 
@@ -33,3 +33,7 @@ Extend your eslint config in your `.eslintrc`:
 ```
 "extends": "@kilohealth/eslint-config/node"
 ```
+
+## See also
+For redux-saga rules see:
+[@kilohealth/eslint-config-redux-saga](https://npm.im/@kilohealth/eslint-config-redux-saga)

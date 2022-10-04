@@ -7,7 +7,7 @@ module.exports = {
   env: {
     browser: true,
   },
-  plugins: ['react', 'react-hooks', 'redux-saga'],
+  plugins: ['react', 'react-hooks'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -104,7 +104,6 @@ module.exports = {
         noSortAlphabetically: false,
       },
     ],
-    'redux-saga/yield-effects': WARNING,
   },
   settings: {
     react: {
