@@ -23,7 +23,7 @@ jobs:
           timeout_minutes: 10
           retry_wait_seconds: 60
           max_attempts: 2
-          command: yarn install --immutable
+          command: NOYARNPOSTINSTALL=1 yarn install --immutable
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}

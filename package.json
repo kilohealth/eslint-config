@@ -13,7 +13,7 @@
     "packages/*"
   ],
   "scripts": {
-    "postinstall": "husky install",
+    "postinstall": "test -n \"$NOYARNPOSTINSTALL\" || husky install",
     "sort-all-package-json": "yarn sort-package-json \"package.json\" \"packages/*/package.json\""
   },
   "devDependencies": {
