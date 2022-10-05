@@ -1,6 +1,18 @@
 {
   "name": "@kilohealth/eslint-config-redux-saga",
-  "main": "./react-native.js",
+  "version": "0.0.1",
+  "description": "Eslint preset for redux saga",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "redux",
+    "redux-saga"
+  ],
+  "homepage": "https://github.com/kilohealth/eslint-config",
+  "repository": "https://github.com/kilohealth/eslint-config",
+  "license": "MIT",
+  "author": "Kilo.Health",
+  "main": "./index.js",
   "devDependencies": {
     "eslint": "^7",
     "eslint-plugin-redux-saga": "^1",
