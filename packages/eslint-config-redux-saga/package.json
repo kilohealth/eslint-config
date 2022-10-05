@@ -23,5 +23,8 @@
     "eslint-plugin-redux-saga": "^1",
     "redux-saga": "^1"
   },
-  "packageManager": "yarn@3.2.2"
+  "packageManager": "yarn@3.2.2",
+  "publishConfig": {
+    "access": "public"
+  }
 }
