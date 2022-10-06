@@ -1,19 +1,6 @@
 {
-  "name": "@kilohealth/eslint-config",
-  "version": "1.0.1",
-  "description": "Eslint preset",
-  "packageManager": "yarn@3.2.2",
-  "homepage": "https://github.com/kilohealth/eslint-config",
-  "repository": "https://github.com/kilohealth/eslint-config",
-  "summary": "",
-  "author": "Kilo.Health",
-  "license": "MIT",
-  "main": "./react-native.js",
-  "scripts": {
-    "major": "yarn version --major && yarn release:major",
-    "minor": "yarn version --minor && yarn release:minor",
-    "patch": "yarn version --patch && yarn release:patch"
-  },
+  "name": "kilohealth",
+  "private": true,
   "keywords": [
     "react-native",
     "eslint",
@@ -22,36 +9,29 @@
     "react",
     "node"
   ],
-  "dependencies": {
-    "eslint": "^7",
-    "eslint-config-prettier": "^8",
-    "eslint-plugin-import": "^2",
-    "eslint-plugin-jest": "^24",
-    "eslint-plugin-prettier": "^4",
-    "eslint-plugin-promise": "^5",
-    "eslint-plugin-react": "^7",
-    "eslint-plugin-react-hooks": "^4",
-    "eslint-plugin-react-native": "^3",
-    "eslint-plugin-react-native-a11y": "^3",
-    "eslint-plugin-redux-saga": "^1",
-    "eslint-restricted-globals": "^0.2.0",
-    "prettier": "^2"
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "postinstall": "test -n \"$NOYARNPOSTINSTALL\" || husky install",
+    "sort-all-package-json": "yarn sort-package-json \"package.json\" \"packages/*/package.json\""
+  },
+  "lint-staged": {
+    "package.json": [
+      "sort-package-json"
+    ],
+    "*.{js,json,md,yml}": [
+      "prettier --write"
+    ]
   },
   "devDependencies": {
-    "generate-changelog": "^1"
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "husky": "^8.0.1",
+    "lerna": "^5.5.4",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "sort-package-json": "^2.0.0"
   },
-  "peerDependencies": {
-    "eslint": "^7",
-    "eslint-config-prettier": "^8",
-    "eslint-plugin-import": "^2",
-    "eslint-plugin-jest": "^24",
-    "eslint-plugin-prettier": "^4",
-    "eslint-plugin-promise": "^5",
-    "eslint-plugin-react": "^7",
-    "eslint-plugin-react-hooks": "^4",
-    "eslint-plugin-redux-saga": "^1",
-    "eslint-restricted-globals": "^0.2.0",
-    "prettier": "^2",
-    "redux-saga": "^1"
-  }
+  "packageManager": "yarn@3.2.2"
 }

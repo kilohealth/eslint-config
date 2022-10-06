@@ -1,0 +1,11 @@
+{
+  "ignoreChanges": [
+    "**/.github/**"
+  ],
+  "npmClient": "yarn",
+  "packages": [
+    "packages/*"
+  ],
+  "useWorkspaces": true,
+  "version": "independent"
+}

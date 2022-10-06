@@ -36,7 +36,6 @@ module.exports = {
     'computed-property-spacing': ERROR,
     curly: [ERROR, 'multi-line'],
     'default-case': [WARNING, { commentPattern: '^no default$' }],
-    'eol-last': OFF,
     'eol-last': ERROR,
     'func-style': [ERROR, 'declaration', { allowArrowFunctions: true }],
     'import/order': [
@@ -60,7 +59,6 @@ module.exports = {
     'import/no-named-as-default-member': OFF,
     'import/no-relative-parent-imports': OFF,
     'import/no-self-import': ERROR,
-    'import/no-useless-path-segments': ERROR,
     'import/no-useless-path-segments': ERROR,
     'import/prefer-default-export': OFF,
     'jsx-quotes': [ERROR, 'prefer-double'],
@@ -198,7 +196,7 @@ module.exports = {
   overrides: [
     {
       files: ['*.js', '*.jsx'],
-      parser: 'babel-eslint',
+      parser: '@babel/eslint-parser',
       extends: [],
       settings: {
         'import/extensions': [...extensions.JS, ...extensions.TS],
