@@ -14,7 +14,7 @@
   "repository": "https://github.com/kilohealth/eslint-config",
   "license": "MIT",
   "author": "Kilo.Health",
-  "main": "./react-native.js",
+  "main": "./node.js",
   "devDependencies": {
     "@babel/core": "^7.19.3",
     "@babel/eslint-parser": "^7.19.1",
