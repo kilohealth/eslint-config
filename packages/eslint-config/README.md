@@ -6,7 +6,7 @@ Kilo.Health ESLint config for React Native, React and Node.js projects.
 
 ### Install the package
 
-`yarn add @kilohealth/eslint-config`
+`yarn add -D @kilohealth/eslint-config`
 
 ### Install dependencies
 

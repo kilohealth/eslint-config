@@ -8,9 +8,7 @@
       {
         "preset": "conventionalcommits",
         "releaseRules": [
-          { "type": "build", "release": "patch" },
-          { "type": "chore", "release": "patch" },
-          { "type": "ci", "release": "patch" }
+          { "type": "build", "release": "patch" }
         ]
       }
     ],
@@ -47,9 +45,10 @@
       {
         "notifyOnSuccess": false,
         "notifyOnFail": false,
+        "markdownReleaseNotes": true,
         "branchesConfig": [
           {
-            "pattern": "master1",
+            "pattern": "master",
             "notifyOnSuccess": true,
             "notifyOnFail": false
           }
