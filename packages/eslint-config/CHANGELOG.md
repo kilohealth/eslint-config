@@ -1,3 +1,5 @@
+## [@kilohealth/eslint-config-v2.0.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v2.0.0...@kilohealth/eslint-config-v2.0.1) (2022-10-06)
+
 ## [@kilohealth/eslint-config-v2.0.0](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v1.0.1...@kilohealth/eslint-config-v2.0.0) (2022-10-06)
 
 
