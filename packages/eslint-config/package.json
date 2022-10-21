@@ -15,41 +15,31 @@
   "license": "MIT",
   "author": "Kilo.Health",
   "main": "./node.js",
+  "dependencies": {
+    "@next/eslint-plugin-next": "^12.3.1",
+    "@shopify/eslint-plugin": "^42.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react-native": "^4.0.0",
+    "eslint-plugin-react-native-a11y": "^3.2.1"
+  },
   "devDependencies": {
-    "@babel/core": "^7.19.3",
-    "@babel/eslint-parser": "^7.19.1",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
-    "eslint": "^7",
-    "eslint-config-prettier": "^8",
-    "eslint-plugin-import": "^2",
-    "eslint-plugin-jest": "^24",
-    "eslint-plugin-prettier": "^4",
-    "eslint-plugin-promise": "^5",
-    "eslint-plugin-react": "^7",
-    "eslint-plugin-react-hooks": "^4",
-    "eslint-restricted-globals": "^0.2.0",
     "prettier": "^2",
     "semantic-release": "^19.0.5",
     "semantic-release-monorepo": "^7.0.5",
     "semantic-release-slack-bot": "^3.5.3"
   },
   "peerDependencies": {
-    "@babel/core": "^7.19.3",
-    "@babel/eslint-parser": "^7.19.1",
-    "eslint": "^7",
-    "eslint-config-prettier": "^8",
-    "eslint-plugin-import": "^2",
-    "eslint-plugin-jest": "^24",
-    "eslint-plugin-prettier": "^4",
-    "eslint-plugin-promise": "^5",
-    "eslint-plugin-react": "^7",
-    "eslint-plugin-react-hooks": "^4",
-    "eslint-restricted-globals": "^0.2.0",
-    "prettier": "^2"
+    "eslint": "^8.3.0"
   },
   "packageManager": "yarn@3.2.2",
   "publishConfig": {
     "access": "public"
+  },
+  "overrides": {
+    "eslint-plugin-react-native-a11y": {
+      "eslint": "^8.3.0"
+    }
   }
 }

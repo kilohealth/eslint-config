@@ -1,6 +1,6 @@
 # @kilohealth/eslint-config
 
-Kilo.Health ESLint config for React Native, React and Node.js projects.
+Kilo.Health ESLint config for React Native, React, NextJS and Node.js projects.
 
 ## Getting started
 
@@ -10,23 +10,7 @@ Kilo.Health ESLint config for React Native, React and Node.js projects.
 
 ### Install dependencies
 
-`yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-import eslint-plugin-jest eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-native eslint-plugin-react-native-a11y eslint-restricted-globals prettier @babel/core @babel/eslint-parser`
-
-<details>
-<summary>
-**note:** you might need to setup babel config if you haven't done that yet.
-</summary>
-
-Add `.babelrc.json`
-
-```
-{
-  "presets": [],
-  "plugins": []
-}
-```
-
-</details>
+`yarn add -D eslint`
 
 ## Usage
 
@@ -48,6 +32,12 @@ Extend your eslint config in your `.eslintrc`:
 
 ```
 "extends": "@kilohealth/eslint-config/react-native"
+```
+
+### NextJS
+
+```
+"extends": "@kilohealth/eslint-config/next"
 ```
 
 ## See also
