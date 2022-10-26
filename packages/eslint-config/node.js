@@ -2,6 +2,7 @@ const restrictedGlobals = require('eslint-restricted-globals');
 const extensions = require('./extensions');
 
 const OFF = 0;
+const WARNING = 1;
 const ERROR = 2;
 
 // Taken from Jest's default "testMatch" config
@@ -88,7 +89,7 @@ module.exports = {
         memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
       },
     ],
-    'promise/prefer-await-to-then': ERROR,
+    'promise/prefer-await-to-then': WARNING,
     'node/no-callback-literal': OFF,
     'node/no-unsupported-features/node-builtins': OFF,
     'no-warning-comments': OFF,

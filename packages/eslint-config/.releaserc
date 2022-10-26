@@ -1,6 +1,6 @@
 {
   "extends": "semantic-release-monorepo",
-  "branches": [ "master", { name: 'beta', prerelease: true } ],
+  "branches": [ "master" ],
   "repositoryUrl": "https://github.com/kilohealth/eslint-config",
   "plugins": [
     [

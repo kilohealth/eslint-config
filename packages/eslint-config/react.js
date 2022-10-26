@@ -1,4 +1,5 @@
 const OFF = 0;
+const WARNING = 1;
 
 module.exports = {
   extends: [
@@ -12,5 +13,11 @@ module.exports = {
     '@shopify/jsx-no-hardcoded-content': OFF,
     'react/react-in-jsx-scope': OFF,
     'react/jsx-uses-react': OFF,
+    'react/prefer-stateless-function': [
+      WARNING,
+      { ignorePureComponents: true },
+    ],
+    'react/no-multi-comp': [WARNING, { ignoreStateless: true }],
+    'react/no-typos': WARNING,
   },
 };
