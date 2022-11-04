@@ -1,5 +1,4 @@
 const restrictedGlobals = require('eslint-restricted-globals');
-const extensions = require('./extensions');
 
 const OFF = 0;
 const WARNING = 1;
@@ -98,7 +97,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: [...extensions.TS],
+      files: ['*.ts', '*.tsx'],
       parser: '@typescript-eslint/parser',
       rules: {
         '@typescript-eslint/naming-convention': [
