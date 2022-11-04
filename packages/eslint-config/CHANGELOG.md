@@ -1,3 +1,20 @@
+## [@kilohealth/eslint-config-v3.0.0-beta.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v2.0.1...@kilohealth/eslint-config-v3.0.0-beta.1) (2022-11-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* Shopify eslint rules extended
+
+### Features
+
+* implement @shopify/eslint-plugin ([c5428ae](https://github.com/kilohealth/eslint-config/commit/c5428ae5719dde1b4170a5761acaec4af687111b))
+* reuse previous config rules ([ca38991](https://github.com/kilohealth/eslint-config/commit/ca3899137260c1995d6b74f94779793d69a2398e))
+
+
+### Refactor
+
+* update dependencies ([dcb4518](https://github.com/kilohealth/eslint-config/commit/dcb451861cb310e20c1710670dea1a0809406b60))
+
 ## [@kilohealth/eslint-config-v2.0.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v2.0.0...@kilohealth/eslint-config-v2.0.1) (2022-10-06)
 
 ## [@kilohealth/eslint-config-v2.0.0](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v1.0.1...@kilohealth/eslint-config-v2.0.0) (2022-10-06)
