@@ -13,11 +13,30 @@ module.exports = {
     '@shopify/jsx-no-hardcoded-content': OFF,
     'react/react-in-jsx-scope': OFF,
     'react/jsx-uses-react': OFF,
+    'react/no-did-mount-set-state': WARNING,
     'react/prefer-stateless-function': [
       WARNING,
       { ignorePureComponents: true },
     ],
     'react/no-multi-comp': [WARNING, { ignoreStateless: true }],
     'react/no-typos': WARNING,
+    'react/sort-comp': [
+      WARNING,
+      {
+        order: [
+          'propTypes',
+          'defaultProps',
+          'static-variables',
+          'state',
+          '/^.+Ref|Refs$/',
+          '/^animated.+$/',
+          '/^interval|tabButtons|animationDuration$/',
+          'lifecycle',
+          'everything-else',
+          '/^render.+$/',
+          'render',
+        ],
+      },
+    ],
   },
 };
