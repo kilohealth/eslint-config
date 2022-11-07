@@ -526,6 +526,7 @@ __metadata:
     eslint-plugin-promise: ^6.1.1
     eslint-plugin-react-native: ^4.0.0
     eslint-plugin-react-native-a11y: ^3.3.0
+    eslint-restricted-globals: ^0.2.0
   peerDependencies:
     eslint: ^8.3.0
   languageName: unknown
@@ -4275,6 +4276,13 @@ __metadata:
   peerDependencies:
     eslint: ">=0.8.0"
   checksum: 6491a4af602a8ea22226fbe986024da6aa737b383fcd9d0c60d3ec2e4d0e5f4519b84ec5bb58507f3175ec3a11d0c030b905270644267f7f511ff0da70823b2a
+  languageName: node
+  linkType: hard
+
+"eslint-restricted-globals@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "eslint-restricted-globals@npm:0.2.0"
+  checksum: 7e61e24c89eb08d4373a867bbb31259247c41eae0b340ec988f630b0c61cab50abbcd42d81641082426d22c5bbda7c9a3c14da4e585792642d00e5e446d16e3c
   languageName: node
   linkType: hard
 
