@@ -1,3 +1,10 @@
+## [@kilohealth/eslint-config-v3.0.0-beta.6](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v3.0.0-beta.5...@kilohealth/eslint-config-v3.0.0-beta.6) (2022-11-07)
+
+
+### Bug Fixes
+
+* remove redux-saga plugin from react config ([fbb910a](https://github.com/kilohealth/eslint-config/commit/fbb910a3c36afc607a1d9d3660c4c98528bec687))
+
 ## [@kilohealth/eslint-config-v3.0.0-beta.5](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v3.0.0-beta.4...@kilohealth/eslint-config-v3.0.0-beta.5) (2022-11-07)
 
 
