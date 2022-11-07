@@ -1,3 +1,10 @@
+## [@kilohealth/eslint-config-v3.0.0-beta.7](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v3.0.0-beta.6...@kilohealth/eslint-config-v3.0.0-beta.7) (2022-11-07)
+
+
+### Bug Fixes
+
+* update react rules ([39c8326](https://github.com/kilohealth/eslint-config/commit/39c83269b88e20785f2b4080df5df14acb75d632))
+
 ## [@kilohealth/eslint-config-v3.0.0-beta.6](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v3.0.0-beta.5...@kilohealth/eslint-config-v3.0.0-beta.6) (2022-11-07)
 
 
