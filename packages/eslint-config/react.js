@@ -26,6 +26,7 @@ module.exports = {
           'propTypes',
           'defaultProps',
           'static-variables',
+          'static-methods',
           'state',
           '/^.+Ref|Refs$/',
           '/^animated.+$/',
