@@ -1,3 +1,10 @@
+## [@kilohealth/eslint-config-v3.0.0-beta.4](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v3.0.0-beta.3...@kilohealth/eslint-config-v3.0.0-beta.4) (2022-11-07)
+
+
+### Bug Fixes
+
+* update NextJs rules ([f384bed](https://github.com/kilohealth/eslint-config/commit/f384bedb7e36f46fc36becb02e38fdf790ecf3c0))
+
 ## [@kilohealth/eslint-config-v3.0.0-beta.3](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v3.0.0-beta.2...@kilohealth/eslint-config-v3.0.0-beta.3) (2022-11-07)
 
 
