@@ -18,6 +18,7 @@ module.exports = {
   ],
   rules: {
     'arrow-body-style': [ERROR, 'as-needed'],
+    'arrow-parens': [ERROR, 'always'],
     curly: ERROR,
     'default-case': ERROR,
     'default-case-last': ERROR,
