@@ -1,3 +1,10 @@
+## [@kilohealth/eslint-config-v3.0.0-beta.9](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v3.0.0-beta.8...@kilohealth/eslint-config-v3.0.0-beta.9) (2022-11-08)
+
+
+### Bug Fixes
+
+* update arrow-parens rule ([7f6a4c2](https://github.com/kilohealth/eslint-config/commit/7f6a4c2b56be343ceb4523402235d41a45a34d79))
+
 ## [@kilohealth/eslint-config-v3.0.0-beta.8](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v3.0.0-beta.7...@kilohealth/eslint-config-v3.0.0-beta.8) (2022-11-07)
 
 
