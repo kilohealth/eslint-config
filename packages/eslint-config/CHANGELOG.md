@@ -1,3 +1,10 @@
+## [@kilohealth/eslint-config-v3.0.0-beta.8](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v3.0.0-beta.7...@kilohealth/eslint-config-v3.0.0-beta.8) (2022-11-07)
+
+
+### Bug Fixes
+
+* add missing eslint-restricted-globals dependency ([8a79edb](https://github.com/kilohealth/eslint-config/commit/8a79edb05261df9ffa8edc798d1c739ac900dde7))
+
 ## [@kilohealth/eslint-config-v3.0.0-beta.7](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v3.0.0-beta.6...@kilohealth/eslint-config-v3.0.0-beta.7) (2022-11-07)
 
 
