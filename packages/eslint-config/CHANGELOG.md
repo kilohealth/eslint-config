@@ -1,3 +1,10 @@
+## [@kilohealth/eslint-config-v3.0.0-beta.10](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v3.0.0-beta.9...@kilohealth/eslint-config-v3.0.0-beta.10) (2022-11-10)
+
+
+### Features
+
+* create a separate eslint config for Next.js projects ([3023134](https://github.com/kilohealth/eslint-config/commit/3023134e0844f9556a2821c9735edc4e9d2ba105))
+
 ## [@kilohealth/eslint-config-v3.0.0-beta.9](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v3.0.0-beta.8...@kilohealth/eslint-config-v3.0.0-beta.9) (2022-11-08)
 
 
