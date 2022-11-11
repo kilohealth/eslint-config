@@ -1,4 +1,4 @@
-# @kilohealth/eslint-config-next
+# @kilohealth/eslint-config-react-native
 
 Kilo.Health ESLint config for React Native.
 
