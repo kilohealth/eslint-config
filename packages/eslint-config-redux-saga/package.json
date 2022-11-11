@@ -13,15 +13,15 @@
   "license": "MIT",
   "author": "Kilo.Health",
   "main": "./index.js",
+  "dependencies": {
+    "eslint-plugin-redux-saga": "^1.3.2",
+    "redux-saga": "^1.2.1"
+  },
   "devDependencies": {
-    "eslint": "^7",
-    "eslint-plugin-redux-saga": "^1",
-    "redux-saga": "^1"
+    "eslint": "^8.27.0"
   },
   "peerDependencies": {
-    "eslint": "^7",
-    "eslint-plugin-redux-saga": "^1",
-    "redux-saga": "^1"
+    "eslint": "^8.3.0"
   },
   "packageManager": "yarn@3.2.2",
   "publishConfig": {

@@ -1,21 +1,39 @@
 # @kilohealth/eslint-config-redux-saga
 
-Eslint plugin adding rules for redux-saga.
+Kilo.Health ESLint config for Redux-Saga.
 
 ## Getting started
-Add the package and the necessary dependencies to devDependencies.
-```sh
-yarn add -D @kilohealth/eslint-config-redux-saga eslint-plugin-redux-saga redux-saga
+
+### Install the package
+
+```bash
+# yarn
+yarn add -D @kilohealth/eslint-config-redux-saga
+
+# npm
+npm install @kilohealth/eslint-config-redux-saga --save-dev
+```
+
+### Install dependencies
+
+```bash
+# yarn
+yarn add -D eslint
+
+# npm
+npm install eslint --save-dev
 ```
 
 ## Usage
 
 Extend your eslint config in your `.eslintrc`:
 
-```yml
-"extends": ["@kilohealth/eslint-config-redux-saga"]
+```json
+{
+  "extends": ["@kilohealth/eslint-config-redux-saga"]
+}
 ```
 
-## Also see
+## See also
 
 [@kilohealth/eslint-config](https://npm.im/@kilohealth/eslint-config)
