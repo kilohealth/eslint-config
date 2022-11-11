@@ -1,22 +1,22 @@
 {
-  "name": "@kilohealth/eslint-config",
-  "version": "3.0.0-beta.9",
-  "description": "Eslint preset for Node.js, React",
+  "name": "@kilohealth/eslint-config-react-native",
+  "version": "1.0.0",
+  "description": "Eslint preset for React Native",
   "keywords": [
     "eslint",
     "eslintconfig",
     "react",
-    "node"
+    "react-native"
   ],
   "homepage": "https://github.com/kilohealth/eslint-config",
   "repository": "https://github.com/kilohealth/eslint-config",
   "license": "MIT",
   "author": "Kilo.Health",
-  "main": "./node.js",
+  "main": "./index.js",
   "dependencies": {
-    "@shopify/eslint-plugin": "^42.0.1",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-restricted-globals": "^0.2.0"
+    "@kilohealth/eslint-config": "^3.0.0-beta.10",
+    "eslint-plugin-react-native": "^4.0.0",
+    "eslint-plugin-react-native-a11y": "^3.3.0"
   },
   "peerDependencies": {
     "eslint": "^8.3.0"

@@ -507,8 +507,20 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@kilohealth/eslint-config-next@workspace:packages/eslint-config-next"
   dependencies:
-    "@kilohealth/eslint-config": ^3.0.0-beta.9
+    "@kilohealth/eslint-config": ^3.0.0-beta.10
     "@next/eslint-plugin-next": ^12.3.2
+  peerDependencies:
+    eslint: ^8.3.0
+  languageName: unknown
+  linkType: soft
+
+"@kilohealth/eslint-config-react-native@workspace:packages/eslint-config-react-native":
+  version: 0.0.0-use.local
+  resolution: "@kilohealth/eslint-config-react-native@workspace:packages/eslint-config-react-native"
+  dependencies:
+    "@kilohealth/eslint-config": ^3.0.0-beta.10
+    eslint-plugin-react-native: ^4.0.0
+    eslint-plugin-react-native-a11y: ^3.3.0
   peerDependencies:
     eslint: ^8.3.0
   languageName: unknown
@@ -528,14 +540,27 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@kilohealth/eslint-config@^3.0.0-beta.9, @kilohealth/eslint-config@workspace:packages/eslint-config":
-  version: 0.0.0-use.local
-  resolution: "@kilohealth/eslint-config@workspace:packages/eslint-config"
+"@kilohealth/eslint-config@npm:^3.0.0-beta.10":
+  version: 3.0.0-beta.10
+  resolution: "@kilohealth/eslint-config@npm:3.0.0-beta.10"
   dependencies:
     "@shopify/eslint-plugin": ^42.0.1
     eslint-plugin-promise: ^6.1.1
     eslint-plugin-react-native: ^4.0.0
     eslint-plugin-react-native-a11y: ^3.3.0
+    eslint-restricted-globals: ^0.2.0
+  peerDependencies:
+    eslint: ^8.3.0
+  checksum: 13316dab8bcdc93fbe131bc3aa34d30eb491aaa8108e8ef66506dfa5094cb823e530b1bd90f7529c4b65a53498e0ca674e660fc59783b50bc7bac67d2da5d63f
+  languageName: node
+  linkType: hard
+
+"@kilohealth/eslint-config@workspace:packages/eslint-config":
+  version: 0.0.0-use.local
+  resolution: "@kilohealth/eslint-config@workspace:packages/eslint-config"
+  dependencies:
+    "@shopify/eslint-plugin": ^42.0.1
+    eslint-plugin-promise: ^6.1.1
     eslint-restricted-globals: ^0.2.0
   peerDependencies:
     eslint: ^8.3.0
@@ -2312,12 +2337,12 @@ __metadata:
   linkType: hard
 
 "@yarnpkg/parsers@npm:^3.0.0-rc.18":
-  version: 3.0.0-rc.27
-  resolution: "@yarnpkg/parsers@npm:3.0.0-rc.27"
+  version: 3.0.0-rc.28
+  resolution: "@yarnpkg/parsers@npm:3.0.0-rc.28"
   dependencies:
     js-yaml: ^3.10.0
     tslib: ^2.4.0
-  checksum: c7299fc135c859c35032bc6bcc2977aa7c61c4d81568b145c0eb4e5857de78a9ab112a073a445cfb7811b4f2ff4aa07db5850475e55ca09101267a3c6bb87cc0
+  checksum: 93bb72f9f929a83919abd11b3550c75a1140837865427fe1226927f8934d5290884cee1aa1a5c2632535dfddc3cea4a771d7a264bfb5c3e71c36cdf3dcce6211
   languageName: node
   linkType: hard
 

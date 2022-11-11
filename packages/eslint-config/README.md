@@ -1,6 +1,6 @@
 # @kilohealth/eslint-config
 
-Kilo.Health ESLint config for React Native, React and Node.js projects.
+Kilo.Health ESLint config React and Node.js projects.
 
 ## Getting started
 
@@ -36,14 +36,6 @@ Extend your eslint config in your `.eslintrc`:
 }
 ```
 
-### React Native
-
-```json
-{
-  "extends": ["@kilohealth/eslint-config/react-native"]
-}
-```
-
 ## See also
 
 For redux-saga eslint config see:
@@ -51,3 +43,6 @@ For redux-saga eslint config see:
 
 For Next.js eslint config see:
 [@kilohealth/eslint-config-next](https://npm.im/@kilohealth/eslint-config-next)
+
+For React Native eslint config see:
+[@kilohealth/eslint-config-react-native](https://npm.im/@kilohealth/eslint-config-react-native)
