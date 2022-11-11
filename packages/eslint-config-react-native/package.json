@@ -1,6 +1,6 @@
 {
   "name": "@kilohealth/eslint-config-react-native",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.1",
   "description": "Eslint preset for React Native",
   "keywords": [
     "eslint",
