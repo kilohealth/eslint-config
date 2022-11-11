@@ -540,22 +540,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@kilohealth/eslint-config@npm:^3.0.0-beta.10":
-  version: 3.0.0-beta.10
-  resolution: "@kilohealth/eslint-config@npm:3.0.0-beta.10"
-  dependencies:
-    "@shopify/eslint-plugin": ^42.0.1
-    eslint-plugin-promise: ^6.1.1
-    eslint-plugin-react-native: ^4.0.0
-    eslint-plugin-react-native-a11y: ^3.3.0
-    eslint-restricted-globals: ^0.2.0
-  peerDependencies:
-    eslint: ^8.3.0
-  checksum: 13316dab8bcdc93fbe131bc3aa34d30eb491aaa8108e8ef66506dfa5094cb823e530b1bd90f7529c4b65a53498e0ca674e660fc59783b50bc7bac67d2da5d63f
-  languageName: node
-  linkType: hard
-
-"@kilohealth/eslint-config@workspace:packages/eslint-config":
+"@kilohealth/eslint-config@^3.0.0-beta.10, @kilohealth/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@kilohealth/eslint-config@workspace:packages/eslint-config"
   dependencies:
