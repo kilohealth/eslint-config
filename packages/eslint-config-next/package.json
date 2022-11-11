@@ -1,6 +1,6 @@
 {
   "name": "@kilohealth/eslint-config-next",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "description": "Eslint preset for Next.js",
   "keywords": [
     "eslint",
