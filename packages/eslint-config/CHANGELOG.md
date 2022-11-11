@@ -1,3 +1,10 @@
+## [@kilohealth/eslint-config-v3.0.0-beta.11](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v3.0.0-beta.10...@kilohealth/eslint-config-v3.0.0-beta.11) (2022-11-11)
+
+
+### Features
+
+* create a separate eslint config for React Native projects ([4d7f40e](https://github.com/kilohealth/eslint-config/commit/4d7f40ef1eb2e479ac4af362a0ed8cf3c238723d))
+
 ## [@kilohealth/eslint-config-v3.0.0-beta.10](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v3.0.0-beta.9...@kilohealth/eslint-config-v3.0.0-beta.10) (2022-11-10)
 
 ### Features
