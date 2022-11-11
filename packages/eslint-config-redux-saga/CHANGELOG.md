@@ -1,3 +1,10 @@
+## [@kilohealth/eslint-config-redux-saga-v1.2.0-beta.2](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-redux-saga-v1.2.0-beta.1...@kilohealth/eslint-config-redux-saga-v1.2.0-beta.2) (2022-11-11)
+
+
+### Features
+
+* update eslint-config-redux-saga dependencies ([a7bb206](https://github.com/kilohealth/eslint-config/commit/a7bb20634e465b170adfab49b10310c6a6bba214))
+
 ## [@kilohealth/eslint-config-redux-saga-v1.2.0-beta.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-redux-saga-v1.1.0...@kilohealth/eslint-config-redux-saga-v1.2.0-beta.1) (2022-11-11)
 
 
