@@ -7,13 +7,21 @@ Kilo.Health ESLint config React and Node.js projects.
 ### Install the package
 
 ```bash
+# yarn
 yarn add -D @kilohealth/eslint-config
+
+# npm
+npm install @kilohealth/eslint-config --save-dev
 ```
 
 ### Install dependencies
 
 ```bash
+# yarn
 yarn add -D eslint
+
+# npm
+npm install eslint --save-dev
 ```
 
 ## Usage

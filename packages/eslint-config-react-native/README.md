@@ -7,13 +7,21 @@ Kilo.Health ESLint config for React Native.
 ### Install the package
 
 ```bash
+# yarn
 yarn add -D @kilohealth/eslint-config-react-native
+
+# npm
+npm install @kilohealth/eslint-config-react-native --save-dev
 ```
 
 ### Install dependencies
 
 ```bash
+# yarn
 yarn add -D eslint
+
+# npm
+npm install eslint --save-dev
 ```
 
 ## Usage
