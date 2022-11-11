@@ -1,32 +1,28 @@
 # @kilohealth/eslint-config
 
-Kilo.Health ESLint config for React Native, React and Node.js projects.
+Kilo.Health ESLint config React and Node.js projects.
 
 ## Getting started
 
 ### Install the package
 
-`yarn add -D @kilohealth/eslint-config`
+```bash
+# yarn
+yarn add -D @kilohealth/eslint-config
+
+# npm
+npm install @kilohealth/eslint-config --save-dev
+```
 
 ### Install dependencies
 
-`yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-import eslint-plugin-jest eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-native eslint-plugin-react-native-a11y eslint-restricted-globals prettier @babel/core @babel/eslint-parser`
+```bash
+# yarn
+yarn add -D eslint
 
-<details>
-<summary>
-**note:** you might need to setup babel config if you haven't done that yet.
-</summary>
-
-Add `.babelrc.json`
-
+# npm
+npm install eslint --save-dev
 ```
-{
-  "presets": [],
-  "plugins": []
-}
-```
-
-</details>
 
 ## Usage
 
@@ -34,23 +30,27 @@ Extend your eslint config in your `.eslintrc`:
 
 ### Node
 
-```
-"extends": "@kilohealth"
+```json
+{
+  "extends": ["@kilohealth"]
+}
 ```
 
 ### React
 
-```
-"extends": "@kilohealth/eslint-config/react"
-```
-
-### React Native
-
-```
-"extends": "@kilohealth/eslint-config/react-native"
+```json
+{
+  "extends": ["@kilohealth/eslint-config/react"]
+}
 ```
 
 ## See also
 
-For redux-saga rules see:
+For redux-saga eslint config see:
 [@kilohealth/eslint-config-redux-saga](https://npm.im/@kilohealth/eslint-config-redux-saga)
+
+For Next.js eslint config see:
+[@kilohealth/eslint-config-next](https://npm.im/@kilohealth/eslint-config-next)
+
+For React Native eslint config see:
+[@kilohealth/eslint-config-react-native](https://npm.im/@kilohealth/eslint-config-react-native)

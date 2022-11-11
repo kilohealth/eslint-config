@@ -1,6 +1,6 @@
-# @kilohealth/eslint-config-redux-saga
+# @kilohealth/eslint-config-next
 
-Kilo.Health ESLint config for Redux-Saga.
+Kilo.Health ESLint config for Next.js.
 
 ## Getting started
 
@@ -8,10 +8,10 @@ Kilo.Health ESLint config for Redux-Saga.
 
 ```bash
 # yarn
-yarn add -D @kilohealth/eslint-config-redux-saga
+yarn add -D @kilohealth/eslint-config-next
 
 # npm
-npm install @kilohealth/eslint-config-redux-saga --save-dev
+npm install @kilohealth/eslint-config-next --save-dev
 ```
 
 ### Install dependencies
@@ -30,7 +30,7 @@ Extend your eslint config in your `.eslintrc`:
 
 ```json
 {
-  "extends": ["@kilohealth/eslint-config-redux-saga"]
+  "extends": ["@kilohealth/eslint-config-next"]
 }
 ```
 
