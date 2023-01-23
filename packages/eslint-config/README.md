@@ -1,6 +1,6 @@
 # @kilohealth/eslint-config
 
-Kilo.Health ESLint config React and Node.js projects.
+Kilo.Health ESLint config for React and Node.js.
 
 ## Getting started
 

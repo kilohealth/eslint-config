@@ -1,7 +1,7 @@
 {
   "name": "@kilohealth/eslint-config",
   "version": "3.0.0-beta.11",
-  "description": "Eslint preset for Node.js, React",
+  "description": "Kilo.Health ESLint config for Node.js, React",
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -14,7 +14,7 @@
   "author": "Kilo.Health",
   "main": "./node.js",
   "dependencies": {
-    "@shopify/eslint-plugin": "^42.0.1",
+    "@shopify/eslint-plugin": "^42.0.3",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-restricted-globals": "^0.2.0"
   },

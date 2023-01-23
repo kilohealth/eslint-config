@@ -130,7 +130,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.18.9, @babel/runtime@npm:^7.6.3, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.18.9":
   version: 7.20.1
   resolution: "@babel/runtime@npm:7.20.1"
   dependencies:
@@ -470,6 +470,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@kilohealth/eslint-config-node@^1.0.0-beta.0, @kilohealth/eslint-config-node@workspace:packages/eslint-config-node":
+  version: 0.0.0-use.local
+  resolution: "@kilohealth/eslint-config-node@workspace:packages/eslint-config-node"
+  dependencies:
+    "@shopify/eslint-plugin": ^42.0.3
+    eslint-plugin-promise: ^6.1.1
+    eslint-restricted-globals: ^0.2.0
+  peerDependencies:
+    eslint: ^8.3.0
+  languageName: unknown
+  linkType: soft
+
 "@kilohealth/eslint-config-react-native@workspace:packages/eslint-config-react-native":
   version: 0.0.0-use.local
   resolution: "@kilohealth/eslint-config-react-native@workspace:packages/eslint-config-react-native"
@@ -482,12 +494,21 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@kilohealth/eslint-config-react@workspace:packages/eslint-config-react":
+  version: 0.0.0-use.local
+  resolution: "@kilohealth/eslint-config-react@workspace:packages/eslint-config-react"
+  dependencies:
+    "@kilohealth/eslint-config-node": ^1.0.0-beta.0
+  peerDependencies:
+    eslint: ^8.3.0
+  languageName: unknown
+  linkType: soft
+
 "@kilohealth/eslint-config-redux-saga@workspace:packages/eslint-config-redux-saga":
   version: 0.0.0-use.local
   resolution: "@kilohealth/eslint-config-redux-saga@workspace:packages/eslint-config-redux-saga"
   dependencies:
     eslint-plugin-redux-saga: ^1.3.2
-    redux-saga: ^1.2.1
   peerDependencies:
     eslint: ^8.3.0
   languageName: unknown
@@ -497,7 +518,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@kilohealth/eslint-config@workspace:packages/eslint-config"
   dependencies:
-    "@shopify/eslint-plugin": ^42.0.1
+    "@shopify/eslint-plugin": ^42.0.3
     eslint-plugin-promise: ^6.1.1
     eslint-restricted-globals: ^0.2.0
   peerDependencies:
@@ -1801,62 +1822,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redux-saga/core@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "@redux-saga/core@npm:1.2.1"
-  dependencies:
-    "@babel/runtime": ^7.6.3
-    "@redux-saga/deferred": ^1.2.1
-    "@redux-saga/delay-p": ^1.2.1
-    "@redux-saga/is": ^1.1.3
-    "@redux-saga/symbols": ^1.1.3
-    "@redux-saga/types": ^1.2.1
-    redux: ^4.0.4
-    typescript-tuple: ^2.2.1
-  checksum: f44fbfe3753d4109d1b1383f5d2e3cf68a588f2ab7d98c14d93808e015e1c45a56ef428a1756ae20c3ae4228293c86f4da659b7ece37c2d7808a046d0e8d262b
-  languageName: node
-  linkType: hard
-
-"@redux-saga/deferred@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "@redux-saga/deferred@npm:1.2.1"
-  checksum: 2caca8d2fe559c74889562dbd7fabc6f139cc24871a41122e2ac8e4c98fb1c44a081d0fc762f13c12d6320fd759ee2b799d57141025fef93ae553c09338c3fff
-  languageName: node
-  linkType: hard
-
-"@redux-saga/delay-p@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "@redux-saga/delay-p@npm:1.2.1"
-  dependencies:
-    "@redux-saga/symbols": ^1.1.3
-  checksum: 060533ce8ba6b919caa5d47961eb5d8c1d171519fccd5d44208c26a0b94f3f315c8ea440f1b23af70ed53ebd0445b64567d6a0ac9663a6f703dd8088746ce2b5
-  languageName: node
-  linkType: hard
-
-"@redux-saga/is@npm:^1.1.3":
-  version: 1.1.3
-  resolution: "@redux-saga/is@npm:1.1.3"
-  dependencies:
-    "@redux-saga/symbols": ^1.1.3
-    "@redux-saga/types": ^1.2.1
-  checksum: 8e24194d365e9a8896fa232a92c09a02a8f881f7a3a0d8004311568762ae3865d40391e4719b789114124f71904160a8942bb285e3fd1611599267bf2ae7d5fc
-  languageName: node
-  linkType: hard
-
-"@redux-saga/symbols@npm:^1.1.3":
-  version: 1.1.3
-  resolution: "@redux-saga/symbols@npm:1.1.3"
-  checksum: 65a8ea23c1ab7b122823f1a4d957f881d48fa50f90898c26db65cac6524f22e2f337b768dadfa87324925b41e3279ff1ebce1c4141e53dc19e74855167b49b74
-  languageName: node
-  linkType: hard
-
-"@redux-saga/types@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "@redux-saga/types@npm:1.2.1"
-  checksum: 754f183bd1bdd589a29d2b976f666e9ee9e6d28e88268538c11f679d019334999676d5425af14d2a99d5c91c0c87a01e7ac1c4d81a656d93dd529df315bbd0c7
-  languageName: node
-  linkType: hard
-
 "@semantic-release/changelog@npm:^6.0.1":
   version: 6.0.1
   resolution: "@semantic-release/changelog@npm:6.0.1"
@@ -1989,9 +1954,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shopify/eslint-plugin@npm:^42.0.1":
-  version: 42.0.1
-  resolution: "@shopify/eslint-plugin@npm:42.0.1"
+"@shopify/eslint-plugin@npm:^42.0.3":
+  version: 42.0.3
+  resolution: "@shopify/eslint-plugin@npm:42.0.3"
   dependencies:
     "@babel/eslint-parser": ^7.16.3
     "@babel/eslint-plugin": ^7.14.5
@@ -2003,7 +1968,7 @@ __metadata:
     eslint-config-prettier: ^8.3.0
     eslint-module-utils: ^2.7.1
     eslint-plugin-eslint-comments: ^3.2.0
-    eslint-plugin-import: ^2.25.3
+    eslint-plugin-import: ^2.26.0
     eslint-plugin-jest: ^25.3.0
     eslint-plugin-jest-formatting: ^3.1.0
     eslint-plugin-jsx-a11y: ^6.5.0
@@ -2018,7 +1983,7 @@ __metadata:
     pluralize: ^8.0.0
   peerDependencies:
     eslint: ^8.3.0
-  checksum: 0d94b5f7227aef1c7ae9a99146eddbfa0ce4db691e1b74243c324eead58ca1aded544a6a7c4b7b6fa5d9d8d620e33bc4b8560064371df97546cd84eb30e21dec
+  checksum: 5b6b74d194163dbfdf6f086425001b4e7fa344c9320cc0b5d90ef135be5f8a8bdcb569a425f504b8c3eec66471fcffab817c81b6939799f0e987514f10d97569
   languageName: node
   linkType: hard
 
@@ -2538,7 +2503,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array-includes@npm:^3.1.4, array-includes@npm:^3.1.5":
+"array-includes@npm:^3.1.5, array-includes@npm:^3.1.6":
   version: 3.1.6
   resolution: "array-includes@npm:3.1.6"
   dependencies:
@@ -2558,7 +2523,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array.prototype.flat@npm:^1.2.5":
+"array.prototype.flat@npm:^1.3.1":
   version: 1.3.1
   resolution: "array.prototype.flat@npm:1.3.1"
   dependencies:
@@ -2570,7 +2535,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array.prototype.flatmap@npm:^1.3.0":
+"array.prototype.flatmap@npm:^1.3.0, array.prototype.flatmap@npm:^1.3.1":
   version: 1.3.1
   resolution: "array.prototype.flatmap@npm:1.3.1"
   dependencies:
@@ -3531,15 +3496,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:^2.6.9":
-  version: 2.6.9
-  resolution: "debug@npm:2.6.9"
-  dependencies:
-    ms: 2.0.0
-  checksum: d2f51589ca66df60bf36e1fa6e4386b318c3f1e06772280eea5b1ae9fd3d05e9c2b7fd8a7d862457d00853c75b00451aa2d7459b924629ee385287a650f58fe6
-  languageName: node
-  linkType: hard
-
 "debug@npm:^3.1.0, debug@npm:^3.2.7":
   version: 3.2.7
   resolution: "debug@npm:3.2.7"
@@ -3964,17 +3920,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-node@npm:^0.3.6":
-  version: 0.3.6
-  resolution: "eslint-import-resolver-node@npm:0.3.6"
+"eslint-import-resolver-node@npm:^0.3.7":
+  version: 0.3.7
+  resolution: "eslint-import-resolver-node@npm:0.3.7"
   dependencies:
     debug: ^3.2.7
-    resolve: ^1.20.0
-  checksum: 6266733af1e112970e855a5bcc2d2058fb5ae16ad2a6d400705a86b29552b36131ffc5581b744c23d550de844206fb55e9193691619ee4dbf225c4bde526b1c8
+    is-core-module: ^2.11.0
+    resolve: ^1.22.1
+  checksum: 3379aacf1d2c6952c1b9666c6fa5982c3023df695430b0d391c0029f6403a7775414873d90f397e98ba6245372b6c8960e16e74d9e4a3b0c0a4582f3bdbe3d6e
   languageName: node
   linkType: hard
 
-"eslint-module-utils@npm:^2.7.1, eslint-module-utils@npm:^2.7.3":
+"eslint-module-utils@npm:^2.7.1, eslint-module-utils@npm:^2.7.4":
   version: 2.7.4
   resolution: "eslint-module-utils@npm:2.7.4"
   dependencies:
@@ -4010,26 +3967,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:^2.25.3":
-  version: 2.26.0
-  resolution: "eslint-plugin-import@npm:2.26.0"
+"eslint-plugin-import@npm:^2.26.0":
+  version: 2.27.5
+  resolution: "eslint-plugin-import@npm:2.27.5"
   dependencies:
-    array-includes: ^3.1.4
-    array.prototype.flat: ^1.2.5
-    debug: ^2.6.9
+    array-includes: ^3.1.6
+    array.prototype.flat: ^1.3.1
+    array.prototype.flatmap: ^1.3.1
+    debug: ^3.2.7
     doctrine: ^2.1.0
-    eslint-import-resolver-node: ^0.3.6
-    eslint-module-utils: ^2.7.3
+    eslint-import-resolver-node: ^0.3.7
+    eslint-module-utils: ^2.7.4
     has: ^1.0.3
-    is-core-module: ^2.8.1
+    is-core-module: ^2.11.0
     is-glob: ^4.0.3
     minimatch: ^3.1.2
-    object.values: ^1.1.5
-    resolve: ^1.22.0
+    object.values: ^1.1.6
+    resolve: ^1.22.1
+    semver: ^6.3.0
     tsconfig-paths: ^3.14.1
   peerDependencies:
     eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8
-  checksum: 0bf77ad80339554481eafa2b1967449e1f816b94c7a6f9614ce33fb4083c4e6c050f10d241dd50b4975d47922880a34de1e42ea9d8e6fd663ebb768baa67e655
+  checksum: f500571a380167e25d72a4d925ef9a7aae8899eada57653e5f3051ec3d3c16d08271fcefe41a30a9a2f4fefc232f066253673ee4ea77b30dba65ae173dade85d
   languageName: node
   linkType: hard
 
@@ -5420,7 +5379,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.5.0, is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
+"is-core-module@npm:^2.11.0, is-core-module@npm:^2.5.0, is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
   version: 2.11.0
   resolution: "is-core-module@npm:2.11.0"
   dependencies:
@@ -6842,13 +6801,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ms@npm:2.0.0":
-  version: 2.0.0
-  resolution: "ms@npm:2.0.0"
-  checksum: 0e6a22b8b746d2e0b65a430519934fefd41b6db0682e3477c10f60c76e947c4c0ad06f63ffdf1d78d335f83edee8c0aa928aa66a36c7cd95b69b26f468d527f4
-  languageName: node
-  linkType: hard
-
 "ms@npm:2.1.2":
   version: 2.1.2
   resolution: "ms@npm:2.1.2"
@@ -7428,7 +7380,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object.values@npm:^1.1.5":
+"object.values@npm:^1.1.5, object.values@npm:^1.1.6":
   version: 1.1.6
   resolution: "object.values@npm:1.1.6"
   dependencies:
@@ -8305,24 +8257,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"redux-saga@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "redux-saga@npm:1.2.1"
-  dependencies:
-    "@redux-saga/core": ^1.2.1
-  checksum: 4253848b7fbc8864537af41ac291322c037424a4229c94ab659423ffe9312a253bba08139a0c5fcf2d6912dab947b5a175745957630e2737f4b29e97e030f8f3
-  languageName: node
-  linkType: hard
-
-"redux@npm:^4.0.4":
-  version: 4.2.0
-  resolution: "redux@npm:4.2.0"
-  dependencies:
-    "@babel/runtime": ^7.9.2
-  checksum: 75f3955c89b3f18edf5411e5fb482aa2e4f41a416183e8802a6bf6472c4fc3d47675b8b321d147f8af8e0f616436ac507bf5a25f1c4d6180e797b549c7db2c1d
-  languageName: node
-  linkType: hard
-
 "regenerator-runtime@npm:^0.13.10":
   version: 0.13.10
   resolution: "regenerator-runtime@npm:0.13.10"
@@ -8438,7 +8372,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:^1.10.0, resolve@npm:^1.10.1, resolve@npm:^1.20.0, resolve@npm:^1.22.0":
+"resolve@npm:^1.10.0, resolve@npm:^1.10.1, resolve@npm:^1.22.1":
   version: 1.22.1
   resolution: "resolve@npm:1.22.1"
   dependencies:
@@ -8464,7 +8398,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.10.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.0#~builtin<compat/resolve>":
+"resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.10.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>":
   version: 1.22.1
   resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
   dependencies:
@@ -9579,31 +9513,6 @@ __metadata:
   version: 0.0.6
   resolution: "typedarray@npm:0.0.6"
   checksum: 33b39f3d0e8463985eeaeeacc3cb2e28bc3dfaf2a5ed219628c0b629d5d7b810b0eb2165f9f607c34871d5daa92ba1dc69f49051cf7d578b4cbd26c340b9d1b1
-  languageName: node
-  linkType: hard
-
-"typescript-compare@npm:^0.0.2":
-  version: 0.0.2
-  resolution: "typescript-compare@npm:0.0.2"
-  dependencies:
-    typescript-logic: ^0.0.0
-  checksum: d6c43213e7689f8519438b6deceb9877cdc83b4f64677bbc07e6d88d8b63bee713035731678facfd3f81b019b93131a876a230194b4f8d31737bfc5af71594d2
-  languageName: node
-  linkType: hard
-
-"typescript-logic@npm:^0.0.0":
-  version: 0.0.0
-  resolution: "typescript-logic@npm:0.0.0"
-  checksum: 84506bd58b7e15455b3233ded7f43f2ff8667500dca94f8e96e61aa16fa5a78bd9c45455f27c49f0e4aee7322c3e5a4b270e68bf8ba29fdf1571256fe2607152
-  languageName: node
-  linkType: hard
-
-"typescript-tuple@npm:^2.2.1":
-  version: 2.2.1
-  resolution: "typescript-tuple@npm:2.2.1"
-  dependencies:
-    typescript-compare: ^0.0.2
-  checksum: 7f9620d6b5c895b2b2a61817b27c6fb32c23fd3f47fef6aef202f387b7d82f2d49a2bab96f9a25b512b8718a70d38a2898a0dfdca623136f7aa9a5b17331da71
   languageName: node
   linkType: hard
 
