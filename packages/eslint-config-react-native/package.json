@@ -14,7 +14,7 @@
   "author": "Kilo.Health",
   "main": "./index.js",
   "dependencies": {
-    "@kilohealth/eslint-config": "^3.0.0-beta.10",
+    "@kilohealth/eslint-config-react": "^1.0.0-beta.1",
     "eslint-plugin-react-native": "^4.0.0",
     "eslint-plugin-react-native-a11y": "^3.3.0"
   },

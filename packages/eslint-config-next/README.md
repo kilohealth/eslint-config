@@ -26,7 +26,7 @@ npm install eslint --save-dev
 
 ## Usage
 
-Extend your eslint config in your `.eslintrc`:
+Extend your ESLint config in your `.eslintrc`:
 
 ```json
 {
@@ -36,4 +36,14 @@ Extend your eslint config in your `.eslintrc`:
 
 ## See also
 
-[@kilohealth/eslint-config](https://npm.im/@kilohealth/eslint-config)
+React ESLint config:
+[@kilohealth/eslint-config-react](https://npm.im/@kilohealth/eslint-config-react)
+
+Redux-Saga ESLint config:
+[@kilohealth/eslint-config-redux-saga](https://npm.im/@kilohealth/eslint-config-redux-saga)
+
+Node.js ESLint config:
+[@kilohealth/eslint-config-node](https://npm.im/@kilohealth/eslint-config-node)
+
+React Native ESLint config:
+[@kilohealth/eslint-config-react-native](https://npm.im/@kilohealth/eslint-config-react-native)
