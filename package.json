@@ -7,7 +7,8 @@
     "eslintconfig",
     "prettier",
     "react",
-    "node"
+    "node",
+    "redux-saga"
   ],
   "workspaces": [
     "packages/*"
@@ -25,18 +26,18 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.1.2",
-    "@commitlint/config-conventional": "^17.1.0",
-    "@semantic-release/changelog": "^6.0.1",
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/git": "^10.0.1",
-    "husky": "^8.0.1",
-    "lerna": "^5.5.4",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1",
-    "semantic-release": "^19.0.5",
+    "husky": "^8.0.3",
+    "lerna": "^6.4.1",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.3",
+    "semantic-release": "^20.0.3",
     "semantic-release-monorepo": "^7.0.5",
     "semantic-release-slack-bot": "^3.5.3",
-    "sort-package-json": "^2.0.0"
+    "sort-package-json": "^2.2.0"
   },
   "packageManager": "yarn@3.2.2"
 }
