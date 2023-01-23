@@ -1,0 +1,27 @@
+{
+  "name": "@kilohealth/eslint-config-node",
+  "version": "1.0.0",
+  "description": "Kilo.Health ESLint config for Node.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "node"
+  ],
+  "homepage": "https://github.com/kilohealth/eslint-config",
+  "repository": "https://github.com/kilohealth/eslint-config",
+  "license": "MIT",
+  "author": "Kilo.Health",
+  "main": "./index.js",
+  "dependencies": {
+    "@shopify/eslint-plugin": "^42.0.3",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-restricted-globals": "^0.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.3.0"
+  },
+  "packageManager": "yarn@3.2.2",
+  "publishConfig": {
+    "access": "public"
+  }
+}
