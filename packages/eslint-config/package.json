@@ -1,6 +1,6 @@
 {
   "name": "@kilohealth/eslint-config",
-  "version": "3.0.0-beta.11",
+  "version": "3.0.0-beta.12",
   "description": "Kilo.Health ESLint config for Node.js, React",
   "keywords": [
     "eslint",

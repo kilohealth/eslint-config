@@ -1,3 +1,10 @@
+## [@kilohealth/eslint-config-v3.0.0-beta.12](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v3.0.0-beta.11...@kilohealth/eslint-config-v3.0.0-beta.12) (2023-01-23)
+
+
+### Bug Fixes
+
+* update dependencies ([575497d](https://github.com/kilohealth/eslint-config/commit/575497dfe536b90197952a02b2a66ba745760422))
+
 ## [@kilohealth/eslint-config-v3.0.0-beta.11](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-v3.0.0-beta.10...@kilohealth/eslint-config-v3.0.0-beta.11) (2022-11-11)
 
 
