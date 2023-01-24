@@ -1,12 +1,11 @@
 {
-  "name": "@kilohealth/eslint-config-redux-saga",
-  "version": "1.2.0-beta.5",
-  "description": "Kilo.Health ESLint config for Redux-Saga",
+  "name": "@kilohealth/eslint-config-react",
+  "version": "1.0.0-beta.2",
+  "description": "Kilo.Health ESLint config for React",
   "keywords": [
     "eslint",
     "eslintconfig",
-    "redux",
-    "redux-saga"
+    "react"
   ],
   "homepage": "https://github.com/kilohealth/eslint-config",
   "repository": "https://github.com/kilohealth/eslint-config",
@@ -14,7 +13,7 @@
   "author": "Kilo.Health",
   "main": "./index.js",
   "dependencies": {
-    "eslint-plugin-redux-saga": "^1.3.2"
+    "@kilohealth/eslint-config-node": "^1.0.0-beta.1"
   },
   "peerDependencies": {
     "eslint": "^8.3.0"
