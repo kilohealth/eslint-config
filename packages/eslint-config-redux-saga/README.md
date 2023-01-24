@@ -34,6 +34,8 @@ Extend your ESLint config in your `.eslintrc`:
 }
 ```
 
+## See also
+
 Node.js ESLint config:
 [@kilohealth/eslint-config-node](https://npm.im/@kilohealth/eslint-config-node)
 
