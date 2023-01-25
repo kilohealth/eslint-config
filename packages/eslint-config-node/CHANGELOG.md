@@ -1,3 +1,10 @@
+## [@kilohealth/eslint-config-node-v1.0.1-beta.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node-v1.0.0...@kilohealth/eslint-config-node-v1.0.1-beta.1) (2023-01-25)
+
+
+### Bug Fixes
+
+* warn about type any ([f024047](https://github.com/kilohealth/eslint-config/commit/f0240472f0bfaa9bebb2622ce16ec597ee1345e2))
+
 ## @kilohealth/eslint-config-node-v1.0.0 (2023-01-25)
 
 
