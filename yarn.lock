@@ -466,7 +466,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@kilohealth/eslint-config-node@^1.0.0, @kilohealth/eslint-config-node@workspace:packages/eslint-config-node":
+"@kilohealth/eslint-config-node@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@kilohealth/eslint-config-node@npm:1.0.0"
+  dependencies:
+    "@shopify/eslint-plugin": ^42.0.3
+    eslint-restricted-globals: ^0.2.0
+  peerDependencies:
+    eslint: ^8.3.0
+  checksum: 57051c9bb41139eb447f7d415bf451e32e49604631687b56559252ed6f4d6a2751ed6468407fdf536b495aef937f762d9a06527934c4bebb46afeb1c46ecc014
+  languageName: node
+  linkType: hard
+
+"@kilohealth/eslint-config-node@workspace:packages/eslint-config-node":
   version: 0.0.0-use.local
   resolution: "@kilohealth/eslint-config-node@workspace:packages/eslint-config-node"
   dependencies:
