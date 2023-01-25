@@ -1,5 +1,5 @@
 {
-  "name": "kilohealth",
+  "name": "@kilohealth/eslint-config",
   "private": true,
   "keywords": [
     "react-native",
