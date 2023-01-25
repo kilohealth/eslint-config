@@ -1,3 +1,15 @@
+## [@kilohealth/eslint-config-react-v1.0.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-react-v1.0.0...@kilohealth/eslint-config-react-v1.0.1) (2023-01-25)
+
+
+### Bug Fixes
+
+* depend on stable versions of packages ([b3b0a5e](https://github.com/kilohealth/eslint-config/commit/b3b0a5ef732ca06769660ff92cefcea57d15040a))
+
+
+### Chore
+
+* **release:** 1.0.1-beta.1 [skip ci] ([db8c027](https://github.com/kilohealth/eslint-config/commit/db8c02722c06b8cb59a5dd1e9dcf97a1c476eccf))
+
 ## [@kilohealth/eslint-config-react-v1.0.1-beta.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-react-v1.0.0...@kilohealth/eslint-config-react-v1.0.1-beta.1) (2023-01-25)
 
 
