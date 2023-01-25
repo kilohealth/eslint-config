@@ -1,3 +1,15 @@
+## [@kilohealth/eslint-config-next-v1.0.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-next-v1.0.0...@kilohealth/eslint-config-next-v1.0.1) (2023-01-25)
+
+
+### Bug Fixes
+
+* depend on stable versions of packages ([b3b0a5e](https://github.com/kilohealth/eslint-config/commit/b3b0a5ef732ca06769660ff92cefcea57d15040a))
+
+
+### Chore
+
+* **release:** 1.0.1-beta.1 [skip ci] ([6236b0c](https://github.com/kilohealth/eslint-config/commit/6236b0cdeea5c38ffb2cda1ec81bb8886c51653e))
+
 ## [@kilohealth/eslint-config-next-v1.0.1-beta.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-next-v1.0.0...@kilohealth/eslint-config-next-v1.0.1-beta.1) (2023-01-25)
 
 
