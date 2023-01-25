@@ -466,7 +466,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@kilohealth/eslint-config-node@^1.0.0, @kilohealth/eslint-config-node@^1.0.0-beta.1, @kilohealth/eslint-config-node@workspace:packages/eslint-config-node":
+"@kilohealth/eslint-config-node@^1.0.0, @kilohealth/eslint-config-node@workspace:packages/eslint-config-node":
   version: 0.0.0-use.local
   resolution: "@kilohealth/eslint-config-node@workspace:packages/eslint-config-node"
   dependencies:
@@ -489,18 +489,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@kilohealth/eslint-config-react@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@kilohealth/eslint-config-react@npm:1.0.0"
-  dependencies:
-    "@kilohealth/eslint-config-node": ^1.0.0-beta.1
-  peerDependencies:
-    eslint: ^8.3.0
-  checksum: b945c0ae810eb95a8d964600da830cc481b9a7fe4cc43666d267ada91cbf2428f60a6d5b912ee98b0794b522a71a6b41f7d2ac84da01090dcb03a5a62202912c
-  languageName: node
-  linkType: hard
-
-"@kilohealth/eslint-config-react@workspace:packages/eslint-config-react":
+"@kilohealth/eslint-config-react@^1.0.0, @kilohealth/eslint-config-react@workspace:packages/eslint-config-react":
   version: 0.0.0-use.local
   resolution: "@kilohealth/eslint-config-react@workspace:packages/eslint-config-react"
   dependencies:

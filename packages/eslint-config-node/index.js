@@ -134,6 +134,7 @@ module.exports = {
             format: ['PascalCase'],
           },
         ],
+        '@typescript-eslint/no-explicit-any': WARNING,
         '@shopify/typescript/prefer-pascal-case-enums': OFF,
       },
     },
