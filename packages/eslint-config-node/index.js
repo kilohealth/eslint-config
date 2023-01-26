@@ -141,6 +141,9 @@ module.exports = {
     {
       files: TEST_PATTERNS,
       extends: ['plugin:@shopify/jest'],
+      rules: {
+        '@shopify/jest/no-snapshots': OFF,
+      },
     },
   ],
 };
