@@ -1,3 +1,10 @@
+## [@kilohealth/eslint-config-node-v1.0.2-beta.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node-v1.0.1...@kilohealth/eslint-config-node-v1.0.2-beta.1) (2023-01-26)
+
+
+### Bug Fixes
+
+* disable @shopify/jest/no-snapshots rule ([d58322c](https://github.com/kilohealth/eslint-config/commit/d58322cfde35198ef9e5d19e524a9f238b896c29))
+
 ## [@kilohealth/eslint-config-node-v1.0.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node-v1.0.0...@kilohealth/eslint-config-node-v1.0.1) (2023-01-26)
 
 

@@ -467,14 +467,14 @@ __metadata:
   linkType: soft
 
 "@kilohealth/eslint-config-node@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@kilohealth/eslint-config-node@npm:1.0.0"
+  version: 1.0.1
+  resolution: "@kilohealth/eslint-config-node@npm:1.0.1"
   dependencies:
     "@shopify/eslint-plugin": ^42.0.3
     eslint-restricted-globals: ^0.2.0
   peerDependencies:
     eslint: ^8.3.0
-  checksum: 57051c9bb41139eb447f7d415bf451e32e49604631687b56559252ed6f4d6a2751ed6468407fdf536b495aef937f762d9a06527934c4bebb46afeb1c46ecc014
+  checksum: 993b7bf51cf23dfe9f3afe87a2d14442ad271de440720783eff4881067aec77a054795f76ba3f51924809e4564708be29191cfe4666799e943e7713b444fed39
   languageName: node
   linkType: hard
 
@@ -2654,13 +2654,13 @@ __metadata:
   linkType: hard
 
 "axios@npm:^1.0.0":
-  version: 1.2.4
-  resolution: "axios@npm:1.2.4"
+  version: 1.2.5
+  resolution: "axios@npm:1.2.5"
   dependencies:
     follow-redirects: ^1.15.0
     form-data: ^4.0.0
     proxy-from-env: ^1.1.0
-  checksum: 3454248d72028d69e90e348542140136c1226b448529e78beae5b88e65d6c67f85a3d0eb49f089b338cb54f173671b585c95ef3339f3cb28286eb2878fe47880
+  checksum: 3d7a3b029b9f46fb296bcecf84fbe4be32b09511aba2256d44fc5c1a75824f364d2ce22fd0ea61adfd564e1c353c6d2000b4cc340c65b27102528101557dd9db
   languageName: node
   linkType: hard
 
