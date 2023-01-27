@@ -20,6 +20,7 @@ module.exports = {
       { ignoreClassNames: false, ignoreStyleProperties: false },
     ],
     'react-native/split-platform-components': OFF,
+    'jsx-a11y/accessible-emoji': OFF,
   },
   overrides: [
     {
