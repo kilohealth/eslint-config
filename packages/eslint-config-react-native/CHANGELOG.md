@@ -1,3 +1,10 @@
+## [@kilohealth/eslint-config-react-native-v1.0.2](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-react-native-v1.0.1...@kilohealth/eslint-config-react-native-v1.0.2) (2023-01-27)
+
+
+### Bug Fixes
+
+* remove jsx-a11y/accessible-emoji in react-native ([3ea4668](https://github.com/kilohealth/eslint-config/commit/3ea466885eda2de66fdd3eba8d75d78685ceab0f))
+
 ## [@kilohealth/eslint-config-react-native-v1.0.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-react-native-v1.0.0...@kilohealth/eslint-config-react-native-v1.0.1) (2023-01-25)
 
 
