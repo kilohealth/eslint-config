@@ -467,7 +467,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@kilohealth/eslint-config-node@^1.0.0, @kilohealth/eslint-config-node@workspace:packages/eslint-config-node":
+"@kilohealth/eslint-config-node@npm:^1.0.0":
+  version: 1.0.2
+  resolution: "@kilohealth/eslint-config-node@npm:1.0.2"
+  dependencies:
+    "@shopify/eslint-plugin": ^42.0.3
+    eslint-restricted-globals: ^0.2.0
+  peerDependencies:
+    eslint: ^8.3.0
+  checksum: 07cfe6480929109c77fdc58b143da7c1ce21a1e1adead4e90e0463d508c0b1ec510c93324362d278cba29c4c463cc67efa4f29376b9891ef20bee75caaa23576
+  languageName: node
+  linkType: hard
+
+"@kilohealth/eslint-config-node@workspace:packages/eslint-config-node":
   version: 0.0.0-use.local
   resolution: "@kilohealth/eslint-config-node@workspace:packages/eslint-config-node"
   dependencies:
@@ -492,7 +504,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@kilohealth/eslint-config-react@^1.0.0, @kilohealth/eslint-config-react@workspace:packages/eslint-config-react":
+"@kilohealth/eslint-config-react@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "@kilohealth/eslint-config-react@npm:1.0.1"
+  dependencies:
+    "@kilohealth/eslint-config-node": ^1.0.0
+  peerDependencies:
+    eslint: ^8.3.0
+  checksum: b7982aaf5c25246767f4f38258a9f96c5dbd68efe25360ae03be8018967b8b055aad6c93dee2d4224e4b7470403def684430c47c24a25e5cb3e791aaeaa71ccd
+  languageName: node
+  linkType: hard
+
+"@kilohealth/eslint-config-react@workspace:packages/eslint-config-react":
   version: 0.0.0-use.local
   resolution: "@kilohealth/eslint-config-react@workspace:packages/eslint-config-react"
   dependencies:
