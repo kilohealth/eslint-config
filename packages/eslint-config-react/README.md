@@ -4,6 +4,16 @@ Kilo.Health ESLint config for React.
 
 ## Getting started
 
+### Install dependencies
+
+```bash
+# yarn
+yarn add -D eslint @babel/core
+
+# npm
+npm install eslint @babel/core --save-dev
+```
+
 ### Install the package
 
 ```bash
@@ -12,16 +22,6 @@ yarn add -D @kilohealth/eslint-config-react
 
 # npm
 npm install @kilohealth/eslint-config-react --save-dev
-```
-
-### Install dependencies
-
-```bash
-# yarn
-yarn add -D eslint
-
-# npm
-npm install eslint --save-dev
 ```
 
 ## Usage
