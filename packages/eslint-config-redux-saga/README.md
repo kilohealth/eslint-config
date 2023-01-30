@@ -8,10 +8,12 @@ Kilo.Health ESLint config for Redux-Saga.
 
 ```bash
 # yarn
-yarn add -D eslint @babel/core
+yarn add -D eslint
+yarn add redux-saga
 
 # npm
-npm install eslint @babel/core --save-dev
+npm install eslint --save-dev
+npm install redux-saga
 ```
 
 ### Install the package
