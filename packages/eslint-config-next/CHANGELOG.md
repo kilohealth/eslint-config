@@ -1,3 +1,10 @@
+## [@kilohealth/eslint-config-next-v1.0.2-beta.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-next-v1.0.1...@kilohealth/eslint-config-next-v1.0.2-beta.1) (2023-01-28)
+
+
+### Bug Fixes
+
+* add missing @babel/core peer dependency ([5ef9e4a](https://github.com/kilohealth/eslint-config/commit/5ef9e4abf7b68882a3deddbec98f3e908d0813f1))
+
 ## [@kilohealth/eslint-config-next-v1.0.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-next-v1.0.0...@kilohealth/eslint-config-next-v1.0.1) (2023-01-25)
 
 

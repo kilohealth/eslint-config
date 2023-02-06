@@ -1,3 +1,17 @@
+## [@kilohealth/eslint-config-node-v1.0.3-beta.2](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node-v1.0.3-beta.1...@kilohealth/eslint-config-node-v1.0.3-beta.2) (2023-02-06)
+
+
+### Bug Fixes
+
+* allow declarations in definition files ([1c7347a](https://github.com/kilohealth/eslint-config/commit/1c7347a4cbf5cfacd56e6b20f7c1bcc768a1c9f6))
+
+## [@kilohealth/eslint-config-node-v1.0.3-beta.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node-v1.0.2...@kilohealth/eslint-config-node-v1.0.3-beta.1) (2023-01-28)
+
+
+### Bug Fixes
+
+* add missing @babel/core peer dependency ([5ef9e4a](https://github.com/kilohealth/eslint-config/commit/5ef9e4abf7b68882a3deddbec98f3e908d0813f1))
+
 ## [@kilohealth/eslint-config-node-v1.0.2](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node-v1.0.1...@kilohealth/eslint-config-node-v1.0.2) (2023-01-26)
 
 

@@ -101,8 +101,12 @@ module.exports = {
       files: ['*.ts', '*.tsx'],
       parser: '@typescript-eslint/parser',
       rules: {
+        '@typescript-eslint/no-namespace': [
+          ERROR,
+          { allowDeclarations: false, allowDefinitionFiles: true },
+        ],
         '@typescript-eslint/naming-convention': [
-          'error',
+          ERROR,
           {
             selector: 'default',
             filter: {

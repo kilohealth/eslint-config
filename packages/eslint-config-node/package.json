@@ -1,6 +1,6 @@
 {
   "name": "@kilohealth/eslint-config-node",
-  "version": "1.0.2",
+  "version": "1.0.3-beta.2",
   "description": "Kilo.Health ESLint config for Node.js",
   "keywords": [
     "eslint",
@@ -17,6 +17,7 @@
     "eslint-restricted-globals": "^0.2.0"
   },
   "peerDependencies": {
+    "@babel/core": ">=7.11.0",
     "eslint": "^8.3.0"
   },
   "packageManager": "yarn@3.2.2",

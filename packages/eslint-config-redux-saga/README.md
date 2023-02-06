@@ -4,6 +4,18 @@ Kilo.Health ESLint config for Redux-Saga.
 
 ## Getting started
 
+### Install dependencies
+
+```bash
+# yarn
+yarn add -D eslint
+yarn add redux-saga
+
+# npm
+npm install eslint --save-dev
+npm install redux-saga
+```
+
 ### Install the package
 
 ```bash
@@ -12,16 +24,6 @@ yarn add -D @kilohealth/eslint-config-redux-saga
 
 # npm
 npm install @kilohealth/eslint-config-redux-saga --save-dev
-```
-
-### Install dependencies
-
-```bash
-# yarn
-yarn add -D eslint
-
-# npm
-npm install eslint --save-dev
 ```
 
 ## Usage
