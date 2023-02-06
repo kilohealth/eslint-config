@@ -1,3 +1,10 @@
+## [@kilohealth/eslint-config-node-v1.0.3-beta.2](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node-v1.0.3-beta.1...@kilohealth/eslint-config-node-v1.0.3-beta.2) (2023-02-06)
+
+
+### Bug Fixes
+
+* allow declarations in definition files ([1c7347a](https://github.com/kilohealth/eslint-config/commit/1c7347a4cbf5cfacd56e6b20f7c1bcc768a1c9f6))
+
 ## [@kilohealth/eslint-config-node-v1.0.3-beta.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node-v1.0.2...@kilohealth/eslint-config-node-v1.0.3-beta.1) (2023-01-28)
 
 
