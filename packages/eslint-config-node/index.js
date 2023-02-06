@@ -103,7 +103,7 @@ module.exports = {
       rules: {
         '@typescript-eslint/no-namespace': [
           ERROR,
-          { allowDeclarations: true, allowDefinitionFiles: true },
+          { allowDeclarations: false, allowDefinitionFiles: true },
         ],
         '@typescript-eslint/naming-convention': [
           ERROR,
