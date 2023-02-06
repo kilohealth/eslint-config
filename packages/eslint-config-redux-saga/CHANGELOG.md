@@ -1,3 +1,17 @@
+## [@kilohealth/eslint-config-redux-saga-v1.2.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-redux-saga-v1.2.0...@kilohealth/eslint-config-redux-saga-v1.2.1) (2023-02-06)
+
+
+### Bug Fixes
+
+* add missing @babel/core peer dependency ([5ef9e4a](https://github.com/kilohealth/eslint-config/commit/5ef9e4abf7b68882a3deddbec98f3e908d0813f1))
+* add missing redux-saga peer dependency ([60ed5b7](https://github.com/kilohealth/eslint-config/commit/60ed5b79e22cb6f705c6cbf1407c560d27d90c01))
+
+
+### Chore
+
+* **release:** 1.2.1-beta.1 [skip ci] ([5117003](https://github.com/kilohealth/eslint-config/commit/5117003dc21b6ea008399bd4ef750bf32cafad12))
+* **release:** 1.2.1-beta.2 [skip ci] ([4a5b524](https://github.com/kilohealth/eslint-config/commit/4a5b524a5e90c48c6354fccb689418ea431853ae))
+
 ## [@kilohealth/eslint-config-redux-saga-v1.2.1-beta.2](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-redux-saga-v1.2.1-beta.1...@kilohealth/eslint-config-redux-saga-v1.2.1-beta.2) (2023-01-30)
 
 
