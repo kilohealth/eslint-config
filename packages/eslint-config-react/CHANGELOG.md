@@ -1,3 +1,15 @@
+## [@kilohealth/eslint-config-react-v1.0.2](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-react-v1.0.1...@kilohealth/eslint-config-react-v1.0.2) (2023-02-06)
+
+
+### Bug Fixes
+
+* add missing @babel/core peer dependency ([5ef9e4a](https://github.com/kilohealth/eslint-config/commit/5ef9e4abf7b68882a3deddbec98f3e908d0813f1))
+
+
+### Chore
+
+* **release:** 1.0.2-beta.1 [skip ci] ([67e3cb1](https://github.com/kilohealth/eslint-config/commit/67e3cb19ece8f74517016cc57f779dc6b1d2551c))
+
 ## [@kilohealth/eslint-config-react-v1.0.2-beta.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-react-v1.0.1...@kilohealth/eslint-config-react-v1.0.2-beta.1) (2023-01-28)
 
 
