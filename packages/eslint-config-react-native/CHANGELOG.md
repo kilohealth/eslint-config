@@ -1,3 +1,15 @@
+## [@kilohealth/eslint-config-react-native-v1.0.3](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-react-native-v1.0.2...@kilohealth/eslint-config-react-native-v1.0.3) (2023-02-06)
+
+
+### Bug Fixes
+
+* add missing @babel/core peer dependency ([5ef9e4a](https://github.com/kilohealth/eslint-config/commit/5ef9e4abf7b68882a3deddbec98f3e908d0813f1))
+
+
+### Chore
+
+* **release:** 1.0.3-beta.1 [skip ci] ([6e13f9a](https://github.com/kilohealth/eslint-config/commit/6e13f9af9edd9b9a4fb7f4ef80c17ce0b3575821))
+
 ## [@kilohealth/eslint-config-react-native-v1.0.3-beta.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-react-native-v1.0.2...@kilohealth/eslint-config-react-native-v1.0.3-beta.1) (2023-01-28)
 
 
