@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   extends: 'semantic-release-monorepo',
   branches: ['master', { name: 'beta', prerelease: true }],
   repositoryUrl: 'https://github.com/kilohealth/eslint-config',

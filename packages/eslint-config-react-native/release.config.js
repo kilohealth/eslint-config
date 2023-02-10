@@ -1,9 +1,9 @@
-const baseConfig = require('../../release.config');
+const config = require('../../release.config');
 
-const config = {
-  ...baseConfig,
+module.exports = {
+  ...config,
   plugins: [
-    ...baseConfig.plugins,
+    ...config.plugins,
     [
       'semantic-release-slack-bot',
       {
@@ -21,5 +21,3 @@ const config = {
     ],
   ],
 };
-
-export default config;
