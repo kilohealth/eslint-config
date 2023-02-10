@@ -1,3 +1,15 @@
+## [@kilohealth/eslint-config-node-v1.0.4](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node-v1.0.3...@kilohealth/eslint-config-node-v1.0.4) (2023-02-10)
+
+
+### Bug Fixes
+
+* disable strict-component-boundaries rule for tests ([f69d3ad](https://github.com/kilohealth/eslint-config/commit/f69d3adc89e14025c084ac2b4f43aae3cd9b8d29))
+
+
+### Chore
+
+* **release:** 1.0.4-beta.1 [skip ci] ([f2bb20c](https://github.com/kilohealth/eslint-config/commit/f2bb20c5461004c053c759e5d6a0fd77cdb067d1))
+
 ## [@kilohealth/eslint-config-node-v1.0.4-beta.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node-v1.0.3...@kilohealth/eslint-config-node-v1.0.4-beta.1) (2023-02-10)
 
 
