@@ -467,7 +467,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@kilohealth/eslint-config-node@^1.0.0, @kilohealth/eslint-config-node@workspace:packages/eslint-config-node":
+"@kilohealth/eslint-config-node@npm:^1.0.0":
+  version: 1.0.4
+  resolution: "@kilohealth/eslint-config-node@npm:1.0.4"
+  dependencies:
+    "@shopify/eslint-plugin": ^42.0.3
+    eslint-restricted-globals: ^0.2.0
+  peerDependencies:
+    "@babel/core": ">=7.11.0"
+    eslint: ^8.3.0
+  checksum: 9e7da515d8af7feb850fde056dd112099eaa4163b3f303d5c2469cd8f9d0e6fa630a58ecae17cc01f71cd543458bfcb0d251f042fcca7adbf837c621738359ee
+  languageName: node
+  linkType: hard
+
+"@kilohealth/eslint-config-node@workspace:packages/eslint-config-node":
   version: 0.0.0-use.local
   resolution: "@kilohealth/eslint-config-node@workspace:packages/eslint-config-node"
   dependencies:
@@ -3600,12 +3613,12 @@ __metadata:
   linkType: hard
 
 "define-properties@npm:^1.1.3, define-properties@npm:^1.1.4":
-  version: 1.1.4
-  resolution: "define-properties@npm:1.1.4"
+  version: 1.2.0
+  resolution: "define-properties@npm:1.2.0"
   dependencies:
     has-property-descriptors: ^1.0.0
     object-keys: ^1.1.1
-  checksum: ce0aef3f9eb193562b5cfb79b2d2c86b6a109dfc9fdcb5f45d680631a1a908c06824ddcdb72b7573b54e26ace07f0a23420aaba0d5c627b34d2c1de8ef527e2b
+  checksum: e60aee6a19b102df4e2b1f301816804e81ab48bb91f00d0d935f269bf4b3f79c88b39e4f89eaa132890d23267335fd1140dfcd8d5ccd61031a0a2c41a54e33a6
   languageName: node
   linkType: hard
 
