@@ -1,3 +1,15 @@
+## [@kilohealth/eslint-config-node-v1.0.5](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node-v1.0.4...@kilohealth/eslint-config-node-v1.0.5) (2023-02-13)
+
+
+### Bug Fixes
+
+* lint no-unused-vars ([0c0b642](https://github.com/kilohealth/eslint-config/commit/0c0b642ec70710b3e4ab71a6bf6b587606b9efb2))
+
+
+### Chore
+
+* **release:** 1.0.5-beta.1 [skip ci] ([ec6c2b9](https://github.com/kilohealth/eslint-config/commit/ec6c2b977c71d02373d0238fab6c07c8c3006816))
+
 ## [@kilohealth/eslint-config-node-v1.0.5-beta.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node-v1.0.4...@kilohealth/eslint-config-node-v1.0.5-beta.1) (2023-02-13)
 
 
