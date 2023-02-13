@@ -23,6 +23,10 @@ module.exports = {
     'default-case': ERROR,
     'default-case-last': ERROR,
     'eol-last': ERROR,
+    'no-unused-vars': [
+      ERROR,
+      { vars: 'all', args: 'after-used', ignoreRestSiblings: false },
+    ],
     'func-style': [ERROR, 'declaration', { allowArrowFunctions: true }],
     'no-restricted-globals': [ERROR].concat(restrictedGlobals),
     'no-restricted-properties': [
