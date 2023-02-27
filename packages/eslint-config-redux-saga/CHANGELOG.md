@@ -1,3 +1,10 @@
+## [@kilohealth/eslint-config-redux-saga-v1.3.0](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-redux-saga-v1.2.1...@kilohealth/eslint-config-redux-saga-v1.3.0) (2023-02-27)
+
+
+### Features
+
+* add rule redux-saga/no-unhandled-errors ([d395958](https://github.com/kilohealth/eslint-config/commit/d395958b4091a691e897e52f0691c51eb77fbf2a))
+
 ## [@kilohealth/eslint-config-redux-saga-v1.2.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-redux-saga-v1.2.0...@kilohealth/eslint-config-redux-saga-v1.2.1) (2023-02-06)
 
 
