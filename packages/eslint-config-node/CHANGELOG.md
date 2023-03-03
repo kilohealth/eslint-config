@@ -1,3 +1,10 @@
+## [@kilohealth/eslint-config-node-v1.0.6](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node-v1.0.5...@kilohealth/eslint-config-node-v1.0.6) (2023-03-03)
+
+
+### Bug Fixes
+
+* ignore var names with underscore prefix ([3152e2e](https://github.com/kilohealth/eslint-config/commit/3152e2e8db463b24d5984638f03121f85ac297f6))
+
 ## [@kilohealth/eslint-config-node-v1.0.5](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node-v1.0.4...@kilohealth/eslint-config-node-v1.0.5) (2023-02-13)
 
 
