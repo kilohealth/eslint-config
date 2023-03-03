@@ -25,7 +25,12 @@ module.exports = {
     'eol-last': ERROR,
     'no-unused-vars': [
       ERROR,
-      { vars: 'all', args: 'after-used', ignoreRestSiblings: false },
+      {
+        args: 'after-used',
+        argsIgnorePattern: '^_',
+        ignoreRestSiblings: false,
+        vars: 'all',
+      },
     ],
     'func-style': [ERROR, 'declaration', { allowArrowFunctions: true }],
     'no-restricted-globals': [ERROR].concat(restrictedGlobals),
