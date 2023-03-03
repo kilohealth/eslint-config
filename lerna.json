@@ -1,11 +1,13 @@
 {
-  "ignoreChanges": [
-    "**/.github/**"
-  ],
+  "ignoreChanges": ["**/.github/**"],
   "npmClient": "yarn",
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "useWorkspaces": true,
-  "version": "independent"
+  "command": {
+    "version": {
+      "allowBranch": "master",
+      "conventionalCommits": true
+    }
+  },
+  "version": "1.3.0"
 }
