@@ -35,7 +35,7 @@ jobs:
           git config user.email "${{ github.actor}}@users.noreply.github.com"
           if [ ${{ github.ref }} = refs/heads/beta ]; then
             npx lerna version --conventional-commits --conventional-prerelease --preid beta --yes
-          npx lerna publish  from-git --yes --verify-access=false --dist-tag beta
+            npx lerna publish  from-git --yes --verify-access=false --dist-tag beta
           else
             npx lerna version --conventional-commits --conventional-graduate --yes
             npx lerna publish  from-git --yes --verify-access=false
