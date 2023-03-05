@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0-beta.1](https://github.com/kilohealth/eslint-config/compare/v1.4.0-beta.0...v1.4.0-beta.1) (2023-03-05)
+
+### Bug Fixes
+
+- add missing licenses ([f10821e](https://github.com/kilohealth/eslint-config/commit/f10821e57be5f959b2f755b8f1c1180798680e07))
+
 # [1.4.0-beta.0](https://github.com/kilohealth/eslint-config/compare/v1.0.0...v1.4.0-beta.0) (2023-03-03)
 
 ### Bug Fixes
