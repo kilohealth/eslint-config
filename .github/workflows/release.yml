@@ -30,6 +30,7 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         run: |
+          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
           if [ ${{ github.ref }} = refs/heads/beta ]; then
