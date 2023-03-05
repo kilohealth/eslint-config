@@ -15,7 +15,8 @@
   ],
   "scripts": {
     "postinstall": "test -n \"$NOYARNPOSTINSTALL\" || husky install",
-    "sort-all-package-json": "yarn sort-package-json \"package.json\" \"packages/*/package.json\""
+    "sort-all-package-json": "yarn sort-package-json \"package.json\" \"packages/*/package.json\"",
+    "version": "NOYARNPOSTINSTALL=1 && yarn install && git stage yarn.lock"
   },
   "lint-staged": {
     "package.json": [
