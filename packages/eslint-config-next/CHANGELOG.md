@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0-beta.8](https://github.com/kilohealth/eslint-config/compare/v1.4.0-beta.7...v1.4.0-beta.8) (2023-03-06)
+
+**Note:** Version bump only for package @kilohealth/eslint-config-next
+
 # [1.4.0-beta.7](https://github.com/kilohealth/eslint-config/compare/v1.4.0-beta.6...v1.4.0-beta.7) (2023-03-06)
 
 **Note:** Version bump only for package @kilohealth/eslint-config-next
