@@ -42,9 +42,15 @@ jobs:
           HUSKY: 0
           YARN_ENABLE_IMMUTABLE_INSTALLS: false
         run: |
-          npx lerna version --conventional-commits --conventional-graduate --yes
-          npx lerna publish  from-git --yes --verify-access=false
-      - name: Release notification on Slack
-        uses: slackapi/slack-github-action@v1.23.0
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
+          if [ ${{ github.ref }} = refs/heads/beta ]; then
+            npx lerna version --conventional-commits --conventional-prerelease --preid beta --create-release github --yes
+            npx lerna publish  from-git --yes --verify-access=false --dist-tag beta
+          else
+            npx lerna version --conventional-commits --conventional-graduate --create-release github --yes
+            npx lerna publish  from-git --yes --verify-access=false
+          fi
+
+#      - name: Release notification on Slack
+#        uses: slackapi/slack-github-action@v1.23.0
+#        env:
+#          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
