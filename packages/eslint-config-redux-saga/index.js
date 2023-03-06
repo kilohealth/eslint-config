@@ -12,6 +12,6 @@ module.exports = {
   },
   rules: {
     'redux-saga/no-unhandled-errors': WARNING,
-    'redux-saga/yield-effects': 1,
+    'redux-saga/yield-effects': WARNING,
   },
 };
