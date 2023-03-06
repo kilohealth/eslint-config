@@ -43,4 +43,4 @@ jobs:
           YARN_ENABLE_IMMUTABLE_INSTALLS: false
         run: |
           npx lerna version --conventional-commits --create-release github --yes
-          npx lerna publish from-git --conventional-commits --verify-access=false --yes
+          npx lerna publish from-package --conventional-commits --verify-access=false --yes
