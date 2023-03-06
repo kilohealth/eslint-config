@@ -13,41 +13,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - remove useless .npmignore ([83c0ada](https://github.com/kilohealth/eslint-config/commit/83c0ada9ab26d4817e94d5a4c7332571d4ea4806))
 
-# 1.4.0-beta.9 (2023-03-06)
-
-# 1.4.0-beta.8 (2023-03-06)
-
-# 1.4.0-beta.7 (2023-03-06)
-
-# 1.4.0-beta.6 (2023-03-06)
-
-# 1.4.0-beta.5 (2023-03-05)
-
-# 1.4.0-beta.4 (2023-03-05)
-
-# 1.4.0-beta.3 (2023-03-05)
-
-# 1.4.0-beta.2 (2023-03-05)
-
-# 1.4.0-beta.1 (2023-03-05)
-
-### Bug Fixes
-
-- add missing licenses ([f10821e](https://github.com/kilohealth/eslint-config/commit/f10821e57be5f959b2f755b8f1c1180798680e07))
-
-# 1.4.0-beta.0 (2023-03-03)
-
-### Bug Fixes
-
-- add missing @babel/core peer dependency ([5ef9e4a](https://github.com/kilohealth/eslint-config/commit/5ef9e4abf7b68882a3deddbec98f3e908d0813f1))
-- depend on stable versions of packages ([b3b0a5e](https://github.com/kilohealth/eslint-config/commit/b3b0a5ef732ca06769660ff92cefcea57d15040a))
-- update dependencies ([34b445f](https://github.com/kilohealth/eslint-config/commit/34b445f8f970592d9ca0b5e4c14fab0465792e58))
-
-### Features
-
-- create a separate eslint config for Next.js projects ([3023134](https://github.com/kilohealth/eslint-config/commit/3023134e0844f9556a2821c9735edc4e9d2ba105))
-- create a separate eslint config for React Native projects ([4d7f40e](https://github.com/kilohealth/eslint-config/commit/4d7f40ef1eb2e479ac4af362a0ed8cf3c238723d))
-
 # [1.4.0-beta.8](https://github.com/kilohealth/eslint-config/compare/v1.4.0-beta.7...v1.4.0-beta.8) (2023-03-06)
 
 **Note:** Version bump only for package @kilohealth/eslint-config-next

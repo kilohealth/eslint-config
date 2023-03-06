@@ -13,39 +13,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - remove useless .npmignore ([0130451](https://github.com/kilohealth/eslint-config/commit/0130451e38226189891f0df8e90e090254ee7f79))
 
-# 1.4.0-beta.8 (2023-03-06)
-
-# 1.4.0-beta.7 (2023-03-06)
-
-# 1.4.0-beta.6 (2023-03-06)
-
-# 1.4.0-beta.5 (2023-03-05)
-
-# 1.4.0-beta.4 (2023-03-05)
-
-# 1.4.0-beta.3 (2023-03-05)
-
-# 1.4.0-beta.2 (2023-03-05)
-
-# 1.4.0-beta.1 (2023-03-05)
-
-### Bug Fixes
-
-- add missing licenses ([f10821e](https://github.com/kilohealth/eslint-config/commit/f10821e57be5f959b2f755b8f1c1180798680e07))
-
-# 1.4.0-beta.0 (2023-03-03)
-
-### Bug Fixes
-
-- add missing @babel/core peer dependency ([5ef9e4a](https://github.com/kilohealth/eslint-config/commit/5ef9e4abf7b68882a3deddbec98f3e908d0813f1))
-- depend on stable versions of packages ([b3b0a5e](https://github.com/kilohealth/eslint-config/commit/b3b0a5ef732ca06769660ff92cefcea57d15040a))
-- update dependencies ([34b445f](https://github.com/kilohealth/eslint-config/commit/34b445f8f970592d9ca0b5e4c14fab0465792e58))
-- update dependencies ([46a0e4a](https://github.com/kilohealth/eslint-config/commit/46a0e4ae85d1bf1ca9e3f202ea3684c79993817c))
-
-### Features
-
-- create a separate eslint config for React ([8983634](https://github.com/kilohealth/eslint-config/commit/898363433d8900611d0fda87c8a5212d7cb7f2a4))
-
 # [1.4.0-beta.8](https://github.com/kilohealth/eslint-config/compare/v1.4.0-beta.7...v1.4.0-beta.8) (2023-03-06)
 
 **Note:** Version bump only for package @kilohealth/eslint-config-react
