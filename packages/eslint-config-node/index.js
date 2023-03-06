@@ -156,7 +156,7 @@ module.exports = {
       extends: ['plugin:@shopify/jest'],
       rules: {
         '@shopify/jest/no-snapshots': OFF,
-        '@shopify/strict-component-boundaries': 0,
+        '@shopify/strict-component-boundaries': OFF,
       },
     },
   ],
