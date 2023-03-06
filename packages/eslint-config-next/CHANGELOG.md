@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0-beta.10](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-next@1.4.0-beta.9...@kilohealth/eslint-config-next@1.4.0-beta.10) (2023-03-06)
+
+### Bug Fixes
+
+- remove useless .npmignore ([83c0ada](https://github.com/kilohealth/eslint-config/commit/83c0ada9ab26d4817e94d5a4c7332571d4ea4806))
+
 # 1.4.0-beta.9 (2023-03-06)
 
 # 1.4.0-beta.8 (2023-03-06)
