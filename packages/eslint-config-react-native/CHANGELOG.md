@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0-beta.10](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-react-native@1.4.0-beta.9...@kilohealth/eslint-config-react-native@1.4.0-beta.10) (2023-03-06)
+
+### Bug Fixes
+
+- remove useless .npmignore ([1689916](https://github.com/kilohealth/eslint-config/commit/168991602a99967c54fa2ddacecea571737ba180))
+
 # 1.4.0-beta.9 (2023-03-06)
 
 # 1.4.0-beta.8 (2023-03-06)
