@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0-beta.6](https://github.com/kilohealth/eslint-config/compare/v1.4.0-beta.5...v1.4.0-beta.6) (2023-03-06)
+
+### Bug Fixes
+
+- replace semantic-release with lerna ([9ba69c4](https://github.com/kilohealth/eslint-config/commit/9ba69c47c26fca23a161df817f450b236e9499a3))
+- replace semantic-release with lerna ([ab326cf](https://github.com/kilohealth/eslint-config/commit/ab326cfabdcdfdc066d8d9c0f0968c4b9e3ed9ab))
+
 # [1.4.0-beta.5](https://github.com/kilohealth/eslint-config/compare/v1.4.0-beta.4...v1.4.0-beta.5) (2023-03-05)
 
 ### Bug Fixes
