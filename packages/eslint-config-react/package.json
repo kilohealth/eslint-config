@@ -1,6 +1,6 @@
 {
   "name": "@kilohealth/eslint-config-react",
-  "version": "1.4.0-beta.9",
+  "version": "1.4.0-beta.10",
   "description": "Kilo.Health ESLint config for React",
   "keywords": [
     "eslint",
@@ -13,7 +13,7 @@
   "author": "Kilo.Health",
   "main": "./index.js",
   "dependencies": {
-    "@kilohealth/eslint-config-node": "^1.4.0-beta.8"
+    "@kilohealth/eslint-config-node": "^1.4.0-beta.9"
   },
   "peerDependencies": {
     "@babel/core": ">=7.11.0",

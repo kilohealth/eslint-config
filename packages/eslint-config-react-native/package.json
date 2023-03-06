@@ -1,6 +1,6 @@
 {
   "name": "@kilohealth/eslint-config-react-native",
-  "version": "1.4.0-beta.11",
+  "version": "1.4.0-beta.12",
   "description": "Kilo.Health ESLint config for React Native",
   "keywords": [
     "eslint",
@@ -14,7 +14,7 @@
   "author": "Kilo.Health",
   "main": "./index.js",
   "dependencies": {
-    "@kilohealth/eslint-config-react": "^1.4.0-beta.9",
+    "@kilohealth/eslint-config-react": "^1.4.0-beta.10",
     "eslint-plugin-react-native": "^4.0.0",
     "eslint-plugin-react-native-a11y": "^3.3.0"
   },
