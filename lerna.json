@@ -6,7 +6,8 @@
   "command": {
     "version": {
       "allowBranch": ["master", "beta"],
-      "message": "chore(release): publish [skip ci]"
+      "message": "chore(release): publish [skip ci]",
+      "ignore": ["**/*.md"]
     }
   },
   "version": "independent"
