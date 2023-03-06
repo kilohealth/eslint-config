@@ -12,6 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
+          token: ${{ secrets.GH_TOKEN }}
           fetch-depth: 0
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -24,15 +25,20 @@ jobs:
           retry_wait_seconds: 60
           max_attempts: 2
           command: NOYARNPOSTINSTALL=1 yarn install --immutable
+      - name: Setup NPM
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+      - name: Setup Github
+        run: |
+          git config user.name "lerna-ci"
+          git config user.email "lerna-ci@users.noreply.github.com"
       - name: Release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         run: |
-          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
-          git config user.name "${{ github.actor }}"
-          git config user.email "${{ github.actor}}@users.noreply.github.com"
           if [ ${{ github.ref }} = refs/heads/beta ]; then
             npx lerna version --conventional-commits --conventional-prerelease --preid beta --yes
             npx lerna publish  from-git --yes --verify-access=false --dist-tag beta
