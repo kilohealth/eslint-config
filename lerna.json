@@ -1,11 +1,13 @@
 {
-  "ignoreChanges": [
-    "**/.github/**"
-  ],
+  "ignoreChanges": ["**/.github/**", "**/*.md"],
   "npmClient": "yarn",
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "useWorkspaces": true,
+  "command": {
+    "version": {
+      "allowBranch": ["master"],
+      "message": "chore(release): publish [skip ci]"
+    }
+  },
   "version": "independent"
 }
