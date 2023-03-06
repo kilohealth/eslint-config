@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.2](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node@1.4.1...@kilohealth/eslint-config-node@1.4.2) (2023-03-06)
+
+### Bug Fixes
+
+- test lerna release ([5b73b87](https://github.com/kilohealth/eslint-config/commit/5b73b872f7760b8610f7e6b4b30ba0fd1517299b))
+
 ## [1.4.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node@1.4.0...@kilohealth/eslint-config-node@1.4.1) (2023-03-06)
 
 **Note:** Version bump only for package @kilohealth/eslint-config-node
