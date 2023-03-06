@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.3](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-redux-saga@1.4.2...@kilohealth/eslint-config-redux-saga@1.4.3) (2023-03-06)
+
+### Bug Fixes
+
+- test lerna release ([0d2aae4](https://github.com/kilohealth/eslint-config/commit/0d2aae4e596c2b0f11e4e338d2379fea7fdf9d92))
+
 ## [1.4.2](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-redux-saga@1.4.1...@kilohealth/eslint-config-redux-saga@1.4.2) (2023-03-06)
 
 ### Bug Fixes
