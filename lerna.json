@@ -5,7 +5,7 @@
   "useWorkspaces": true,
   "command": {
     "version": {
-      "allowBranch": ["master", "beta"],
+      "allowBranch": ["master"],
       "message": "chore(release): publish [skip ci]"
     }
   },
