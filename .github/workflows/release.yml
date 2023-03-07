@@ -33,8 +33,8 @@ jobs:
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
       - name: Setup GitHub
         run: |
-          git config user.name "lerna-ci"
-          git config user.email "lerna-ci@users.noreply.github.com"
+          git config user.name "lerna"
+          git config user.email "lerna@users.noreply.github.com"
       - name: Release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
