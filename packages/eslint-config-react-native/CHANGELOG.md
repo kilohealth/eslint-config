@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.5.0 (2023-03-08)
+
+### Bug Fixes
+
+- add missing @babel/core peer dependency ([5ef9e4a](https://github.com/kilohealth/eslint-config/commit/5ef9e4abf7b68882a3deddbec98f3e908d0813f1))
+- depend on stable versions of packages ([b3b0a5e](https://github.com/kilohealth/eslint-config/commit/b3b0a5ef732ca06769660ff92cefcea57d15040a))
+- remove jsx-a11y/accessible-emoji in react-native ([3ea4668](https://github.com/kilohealth/eslint-config/commit/3ea466885eda2de66fdd3eba8d75d78685ceab0f))
+- update dependencies ([34b445f](https://github.com/kilohealth/eslint-config/commit/34b445f8f970592d9ca0b5e4c14fab0465792e58))
+
+### Features
+
+- create a separate eslint config for React Native projects ([4d7f40e](https://github.com/kilohealth/eslint-config/commit/4d7f40ef1eb2e479ac4af362a0ed8cf3c238723d))
+
 ## [1.4.3](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-react-native@1.4.2...@kilohealth/eslint-config-react-native@1.4.3) (2023-03-06)
 
 **Note:** Version bump only for package @kilohealth/eslint-config-react-native

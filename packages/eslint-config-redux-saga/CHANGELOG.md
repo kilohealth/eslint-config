@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.5.0 (2023-03-08)
+
+### Bug Fixes
+
+- add missing @babel/core peer dependency ([5ef9e4a](https://github.com/kilohealth/eslint-config/commit/5ef9e4abf7b68882a3deddbec98f3e908d0813f1))
+- add missing redux-saga peer dependency ([60ed5b7](https://github.com/kilohealth/eslint-config/commit/60ed5b79e22cb6f705c6cbf1407c560d27d90c01))
+- remove useless eslint-config-redux-saga dev dependencies ([50d4073](https://github.com/kilohealth/eslint-config/commit/50d4073a2ab2e31472546fe2320d6485f1f0b90c))
+- update dependencies ([34b445f](https://github.com/kilohealth/eslint-config/commit/34b445f8f970592d9ca0b5e4c14fab0465792e58))
+- update dependencies ([46a0e4a](https://github.com/kilohealth/eslint-config/commit/46a0e4ae85d1bf1ca9e3f202ea3684c79993817c))
+
+### Features
+
+- add rule redux-saga/no-unhandled-errors ([d395958](https://github.com/kilohealth/eslint-config/commit/d395958b4091a691e897e52f0691c51eb77fbf2a))
+- create a separate eslint config for React Native projects ([4d7f40e](https://github.com/kilohealth/eslint-config/commit/4d7f40ef1eb2e479ac4af362a0ed8cf3c238723d))
+- **eslint-saga:** add rules for redux-saga ([5d2b87e](https://github.com/kilohealth/eslint-config/commit/5d2b87e28aaf241e04e081253bd4af91fa566a5d))
+- update eslint-config-redux-saga dependencies ([a7bb206](https://github.com/kilohealth/eslint-config/commit/a7bb20634e465b170adfab49b10310c6a6bba214))
+
 ## [1.4.3](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-redux-saga@1.4.2...@kilohealth/eslint-config-redux-saga@1.4.3) (2023-03-06)
 
 ### Bug Fixes

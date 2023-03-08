@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.5.0 (2023-03-08)
+
+### Bug Fixes
+
+- add missing @babel/core peer dependency ([5ef9e4a](https://github.com/kilohealth/eslint-config/commit/5ef9e4abf7b68882a3deddbec98f3e908d0813f1))
+- allow declarations in definition files ([1c7347a](https://github.com/kilohealth/eslint-config/commit/1c7347a4cbf5cfacd56e6b20f7c1bcc768a1c9f6))
+- disable @shopify/jest/no-snapshots rule ([d58322c](https://github.com/kilohealth/eslint-config/commit/d58322cfde35198ef9e5d19e524a9f238b896c29))
+- disable strict-component-boundaries rule for tests ([f69d3ad](https://github.com/kilohealth/eslint-config/commit/f69d3adc89e14025c084ac2b4f43aae3cd9b8d29))
+- ignore var names with underscore prefix ([3152e2e](https://github.com/kilohealth/eslint-config/commit/3152e2e8db463b24d5984638f03121f85ac297f6))
+- lint no-unused-vars ([0c0b642](https://github.com/kilohealth/eslint-config/commit/0c0b642ec70710b3e4ab71a6bf6b587606b9efb2))
+- update dependencies ([34b445f](https://github.com/kilohealth/eslint-config/commit/34b445f8f970592d9ca0b5e4c14fab0465792e58))
+- warn about type any ([f024047](https://github.com/kilohealth/eslint-config/commit/f0240472f0bfaa9bebb2622ce16ec597ee1345e2))
+
+### Features
+
+- create a separate eslint config for Node.js ([4f64590](https://github.com/kilohealth/eslint-config/commit/4f64590102390b993ddbe26db99330fcd409b612))
+
 ## [1.4.3](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node@1.4.2...@kilohealth/eslint-config-node@1.4.3) (2023-03-06)
 
 ### Bug Fixes
