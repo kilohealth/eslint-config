@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - master
-      - beta
 jobs:
   release:
     name: Release
@@ -12,22 +11,35 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
+          token: ${{ secrets.GH_TOKEN }}
           fetch-depth: 0
-          persist-credentials: false
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 'lts/*'
       - name: Yarn Install package dependencies
+        env:
+          HUSKY: 0
         uses: nick-fields/retry@v2
         with:
           timeout_minutes: 10
           retry_wait_seconds: 60
           max_attempts: 2
-          command: NOYARNPOSTINSTALL=1 yarn install --immutable
+          command: yarn install --immutable
+      - name: Setup NPM
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+      - name: Setup GitHub
+        run: |
+          git config user.name "lerna"
+          git config user.email "lerna@users.noreply.github.com"
       - name: Release
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        run: lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          HUSKY: 0
+          YARN_ENABLE_IMMUTABLE_INSTALLS: false
+        run: |
+          npx lerna version --conventional-commits --create-release github --yes
+          npx lerna publish from-package --conventional-commits --verify-access=false --yes
