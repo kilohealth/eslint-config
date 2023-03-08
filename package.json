@@ -14,8 +14,9 @@
     "packages/*"
   ],
   "scripts": {
-    "postinstall": "test -n \"$NOYARNPOSTINSTALL\" || husky install",
-    "sort-all-package-json": "yarn sort-package-json \"package.json\" \"packages/*/package.json\""
+    "prepare": "husky install",
+    "sort-all-package-json": "yarn sort-package-json \"package.json\" \"packages/*/package.json\"",
+    "version": "yarn install && git stage yarn.lock"
   },
   "lint-staged": {
     "package.json": [
@@ -26,18 +27,13 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.2",
-    "@commitlint/config-conventional": "^17.4.2",
-    "@semantic-release/changelog": "^6.0.2",
-    "@semantic-release/git": "^10.0.1",
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
     "husky": "^8.0.3",
-    "lerna": "^6.4.1",
-    "lint-staged": "^13.1.0",
-    "prettier": "^2.8.3",
-    "semantic-release": "^19.0.5",
-    "semantic-release-monorepo": "^7.0.5",
-    "semantic-release-slack-bot": "^3.5.3",
-    "sort-package-json": "^2.2.0"
+    "lerna": "^6.5.1",
+    "lint-staged": "^13.1.2",
+    "prettier": "^2.8.4",
+    "sort-package-json": "^2.4.1"
   },
   "packageManager": "yarn@3.2.2"
 }
