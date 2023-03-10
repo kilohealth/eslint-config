@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node@1.5.0...@kilohealth/eslint-config-node@1.5.1) (2023-03-10)
+
+### Bug Fixes
+
+- do not add padding lines in switch statement ([0c4d312](https://github.com/kilohealth/eslint-config/commit/0c4d312c7cfb5f4ed45f91828b215ecc825c5e23))
+- do not restrict jest matchers ([9c07547](https://github.com/kilohealth/eslint-config/commit/9c0754725bae0c004f9856513d1c631d0dece399))
+
 # 1.5.0 (2023-03-08)
 
 ### Bug Fixes
