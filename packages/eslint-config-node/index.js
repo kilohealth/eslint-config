@@ -88,6 +88,8 @@ module.exports = {
       { blankLine: 'always', prev: 'block', next: '*' },
       { blankLine: 'always', prev: '*', next: 'block-like' },
       { blankLine: 'always', prev: 'block-like', next: '*' },
+      { blankLine: 'never', prev: 'case', next: ['case', 'default'] },
+      { blankLine: 'never', prev: 'switch', next: ['case', 'default'] },
     ],
     'sort-imports': [
       ERROR,
