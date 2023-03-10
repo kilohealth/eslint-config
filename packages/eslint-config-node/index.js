@@ -157,6 +157,7 @@ module.exports = {
       rules: {
         '@shopify/jest/no-snapshots': OFF,
         '@shopify/strict-component-boundaries': OFF,
+        'jest/no-restricted-matchers': OFF,
       },
     },
   ],
