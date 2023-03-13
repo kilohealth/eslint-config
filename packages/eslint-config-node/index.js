@@ -106,6 +106,7 @@ module.exports = {
     'no-warning-comments': OFF,
     'no-catch-shadow': OFF,
     'id-length': OFF,
+    'no-process-env': OFF,
   },
   overrides: [
     {
