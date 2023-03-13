@@ -1,6 +1,6 @@
 {
   "name": "@kilohealth/eslint-config-next",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "Kilo.Health ESLint config for Next.js",
   "keywords": [
     "eslint",
@@ -14,7 +14,7 @@
   "author": "Kilo.Health",
   "main": "./index.js",
   "dependencies": {
-    "@kilohealth/eslint-config-react": "^1.5.1",
+    "@kilohealth/eslint-config-react": "^1.5.2",
     "@next/eslint-plugin-next": "^13.1.5"
   },
   "peerDependencies": {

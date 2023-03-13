@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.2](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node@1.5.1...@kilohealth/eslint-config-node@1.5.2) (2023-03-13)
+
+### Bug Fixes
+
+- allow runtime environment variables ([b2c979d](https://github.com/kilohealth/eslint-config/commit/b2c979d2972f0f1fcaa10889eed3a5bdcb8217f3))
+
 ## [1.5.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node@1.5.0...@kilohealth/eslint-config-node@1.5.1) (2023-03-10)
 
 ### Bug Fixes
