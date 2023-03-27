@@ -8,10 +8,10 @@ Kilo.Health ESLint config for React Native.
 
 ```bash
 # yarn
-yarn add -D eslint @babel/core
+yarn add -D eslint prettier @babel/core
 
 # npm
-npm install eslint @babel/core --save-dev
+npm install eslint prettier @babel/core --save-dev
 ```
 
 ### Install the package
