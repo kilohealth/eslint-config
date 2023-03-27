@@ -18,6 +18,9 @@
     "eslint-plugin-react-native": "^4.0.0",
     "eslint-plugin-react-native-a11y": "^3.3.0"
   },
+  "peerDependencies": {
+    "eslint": "^8.28.0"
+  },
   "packageManager": "yarn@3.2.2",
   "publishConfig": {
     "access": "public"
