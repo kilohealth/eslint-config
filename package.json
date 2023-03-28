@@ -7,6 +7,7 @@
     "eslintconfig",
     "prettier",
     "react",
+    "next",
     "node",
     "redux-saga"
   ],
@@ -27,12 +28,15 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.4",
+    "@babel/core": "^7.21.3",
+    "@commitlint/cli": "^17.5.0",
     "@commitlint/config-conventional": "^17.4.4",
+    "eslint": "^8.36.0",
     "husky": "^8.0.3",
-    "lerna": "^6.5.1",
-    "lint-staged": "^13.1.2",
-    "prettier": "^2.8.4",
+    "lerna": "^6.6.1",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.7",
+    "redux-saga": "^1.2.3",
     "sort-package-json": "^2.4.1"
   },
   "packageManager": "yarn@3.2.2"

@@ -14,11 +14,11 @@
   "main": "./index.js",
   "dependencies": {
     "@shopify/eslint-plugin": "^42.0.3",
+    "eslint-plugin-unicorn": "^46.0.0",
     "eslint-restricted-globals": "^0.2.0"
   },
   "peerDependencies": {
-    "@babel/core": ">=7.11.0",
-    "eslint": "^8.3.0"
+    "eslint": "^8.28.0"
   },
   "packageManager": "yarn@3.2.2",
   "publishConfig": {

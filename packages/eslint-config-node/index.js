@@ -11,9 +11,17 @@ const TEST_PATTERNS = [
 ];
 
 module.exports = {
+  env: {
+    es2022: true,
+  },
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
   extends: [
     'plugin:@shopify/node',
     'plugin:@shopify/typescript',
+    'unicorn',
     'plugin:@shopify/prettier',
   ],
   rules: {
@@ -107,6 +115,7 @@ module.exports = {
     'no-catch-shadow': OFF,
     'id-length': OFF,
     'no-process-env': OFF,
+    'unicorn/no-array-reduce': ERROR,
   },
   overrides: [
     {
