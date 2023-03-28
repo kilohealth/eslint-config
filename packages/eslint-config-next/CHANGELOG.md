@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-next@1.5.2...@kilohealth/eslint-config-next@1.6.0) (2023-03-28)
+
+### Bug Fixes
+
+- update peer dependencies list ([d30f97c](https://github.com/kilohealth/eslint-config/commit/d30f97c42562a9d113407fb8f74b4a2b1c69d848))
+
+### Features
+
+- allow simple array reduce operations ([4a4d825](https://github.com/kilohealth/eslint-config/commit/4a4d8255abf838ed31f4d48535a21241a7d0772a))
+
 ## [1.5.2](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-next@1.5.1...@kilohealth/eslint-config-next@1.5.2) (2023-03-13)
 
 **Note:** Version bump only for package @kilohealth/eslint-config-next
