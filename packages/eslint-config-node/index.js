@@ -18,10 +18,10 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
+  plugins: ['unicorn'],
   extends: [
     'plugin:@shopify/node',
     'plugin:@shopify/typescript',
-    'unicorn',
     'plugin:@shopify/prettier',
   ],
   rules: {
