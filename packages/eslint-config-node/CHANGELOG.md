@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node@1.6.0...@kilohealth/eslint-config-node@1.6.1) (2023-03-29)
+
+### Bug Fixes
+
+- move unicorn from extends to plugins ([2a38ed5](https://github.com/kilohealth/eslint-config/commit/2a38ed5d38be0a0b2c33a404ccad1d5afffef2b1))
+
 # [1.6.0](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node@1.5.2...@kilohealth/eslint-config-node@1.6.0) (2023-03-28)
 
 ### Bug Fixes
