@@ -1,3 +1,5 @@
+[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-no-action.svg)](https://stand-with-ukraine.pp.ua)
+
 # @kilohealth/eslint-config
 
 Kilo.Health ESLint config monorepo for Node.js, React, React Native, Next.js and Redux-Saga projects.
