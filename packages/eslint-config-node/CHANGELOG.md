@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.7.0](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node@1.6.1...@kilohealth/eslint-config-node@1.7.0) (2023-05-24)
+
+### Bug Fixes
+
+- enforce consistent usage of type imports as warning ([e7c425b](https://github.com/kilohealth/eslint-config/commit/e7c425b2c15bf35871b754f9a0b163272031c634))
+
+### Features
+
+- enforce consistent usage of type imports ([66389da](https://github.com/kilohealth/eslint-config/commit/66389da0c06be88ed81ad1979df87f8bede2255e))
+
 ## [1.6.1](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node@1.6.0...@kilohealth/eslint-config-node@1.6.1) (2023-03-29)
 
 ### Bug Fixes

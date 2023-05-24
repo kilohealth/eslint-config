@@ -646,14 +646,14 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@kilohealth/eslint-config-next@workspace:packages/eslint-config-next"
   dependencies:
-    "@kilohealth/eslint-config-react": ^1.6.1
+    "@kilohealth/eslint-config-react": ^1.6.2
     "@next/eslint-plugin-next": ^13.1.5
   peerDependencies:
     eslint: ^8.28.0
   languageName: unknown
   linkType: soft
 
-"@kilohealth/eslint-config-node@^1.6.1, @kilohealth/eslint-config-node@workspace:packages/eslint-config-node":
+"@kilohealth/eslint-config-node@^1.7.0, @kilohealth/eslint-config-node@workspace:packages/eslint-config-node":
   version: 0.0.0-use.local
   resolution: "@kilohealth/eslint-config-node@workspace:packages/eslint-config-node"
   dependencies:
@@ -669,7 +669,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@kilohealth/eslint-config-react-native@workspace:packages/eslint-config-react-native"
   dependencies:
-    "@kilohealth/eslint-config-react": ^1.6.1
+    "@kilohealth/eslint-config-react": ^1.6.2
     eslint-plugin-react-native: ^4.0.0
     eslint-plugin-react-native-a11y: ^3.3.0
   peerDependencies:
@@ -677,11 +677,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@kilohealth/eslint-config-react@^1.6.1, @kilohealth/eslint-config-react@workspace:packages/eslint-config-react":
+"@kilohealth/eslint-config-react@^1.6.2, @kilohealth/eslint-config-react@workspace:packages/eslint-config-react":
   version: 0.0.0-use.local
   resolution: "@kilohealth/eslint-config-react@workspace:packages/eslint-config-react"
   dependencies:
-    "@kilohealth/eslint-config-node": ^1.6.1
+    "@kilohealth/eslint-config-node": ^1.7.0
   peerDependencies:
     eslint: ^8.28.0
   languageName: unknown
