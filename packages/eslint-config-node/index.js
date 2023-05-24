@@ -160,6 +160,7 @@ module.exports = {
           },
         ],
         '@typescript-eslint/no-explicit-any': WARNING,
+        '@typescript-eslint/consistent-type-imports': ERROR,
         '@shopify/typescript/prefer-pascal-case-enums': OFF,
       },
     },
