@@ -121,6 +121,9 @@ module.exports = {
     {
       files: ['*.ts', '*.tsx'],
       parser: '@typescript-eslint/parser',
+      parserOptions: {
+        project: true
+      },
       rules: {
         '@typescript-eslint/no-namespace': [
           ERROR,
@@ -161,6 +164,7 @@ module.exports = {
         ],
         '@typescript-eslint/no-explicit-any': WARNING,
         '@typescript-eslint/consistent-type-imports': WARNING,
+        '@typescript-eslint/no-floating-promises': WARNING,
         '@shopify/typescript/prefer-pascal-case-enums': OFF,
       },
     },
