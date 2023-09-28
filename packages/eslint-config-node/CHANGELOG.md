@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node@1.7.0...@kilohealth/eslint-config-node@1.8.0) (2023-09-28)
+
+### Features
+
+- warn about unhandled Promise statements ([9474ca0](https://github.com/kilohealth/eslint-config/commit/9474ca0b64e92efb855fda6f4a5ab1236b6db11b))
+
 # [1.7.0](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node@1.6.1...@kilohealth/eslint-config-node@1.7.0) (2023-05-24)
 
 ### Bug Fixes
