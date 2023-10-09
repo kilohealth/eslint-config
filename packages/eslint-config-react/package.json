@@ -16,7 +16,7 @@
     "@kilohealth/eslint-config-node": "^1.8.0"
   },
   "peerDependencies": {
-    "eslint": "^8.28.0"
+    "eslint": "^8.51.0"
   },
   "packageManager": "yarn@3.2.2",
   "publishConfig": {
