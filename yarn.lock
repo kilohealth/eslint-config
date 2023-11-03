@@ -642,7 +642,7 @@ __metadata:
   resolution: "@kilohealth/eslint-config-next@workspace:packages/eslint-config-next"
   dependencies:
     "@kilohealth/eslint-config-react": ^1.7.0
-    "@next/eslint-plugin-next": ^13.5.4
+    "@next/eslint-plugin-next": ^14.0.1
   peerDependencies:
     eslint: ^8.51.0
   languageName: unknown
@@ -794,12 +794,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:^13.5.4":
-  version: 13.5.4
-  resolution: "@next/eslint-plugin-next@npm:13.5.4"
+"@next/eslint-plugin-next@npm:^14.0.1":
+  version: 14.0.1
+  resolution: "@next/eslint-plugin-next@npm:14.0.1"
   dependencies:
     glob: 7.1.7
-  checksum: 17a502cec987768bfa99ee42d9072a9a3bdd32b32bde04bd97a04868b56252352a5c38b571ee5ee8f86ff4c27844984a3c737461ebd91d6ca32a2ce2bd5b8af2
+  checksum: 2bb3cd1035414a1cf645772297224bf50cb81947c2aae8a8c0caee20f2b8f1931dab0f16c0dabfb08eb61a247a0006b57d98dd81ae02558470808f1e22fa7665
   languageName: node
   linkType: hard
 

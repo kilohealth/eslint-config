@@ -15,7 +15,7 @@
   "main": "./index.js",
   "dependencies": {
     "@kilohealth/eslint-config-react": "^1.7.0",
-    "@next/eslint-plugin-next": "^13.5.4"
+    "@next/eslint-plugin-next": "^14.0.1"
   },
   "peerDependencies": {
     "eslint": "^8.51.0"
