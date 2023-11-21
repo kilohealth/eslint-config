@@ -116,6 +116,7 @@ module.exports = {
     'id-length': OFF,
     'no-process-env': OFF,
     'unicorn/no-array-reduce': ERROR,
+    "simple-import-sort/imports": ERROR
   },
   overrides: [
     {
