@@ -99,15 +99,6 @@ module.exports = {
       { blankLine: 'never', prev: 'case', next: ['case', 'default'] },
       { blankLine: 'never', prev: 'switch', next: ['case', 'default'] },
     ],
-    'sort-imports': [
-      ERROR,
-      {
-        ignoreCase: true,
-        ignoreDeclarationSort: true,
-        ignoreMemberSort: false,
-        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
-      },
-    ],
     'promise/prefer-await-to-then': WARNING,
     'node/no-callback-literal': OFF,
     'node/no-unsupported-features/node-builtins': OFF,
@@ -116,6 +107,7 @@ module.exports = {
     'id-length': OFF,
     'no-process-env': OFF,
     'unicorn/no-array-reduce': ERROR,
+    "simple-import-sort/imports": ERROR
   },
   overrides: [
     {
