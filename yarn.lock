@@ -668,7 +668,7 @@ __metadata:
     eslint-plugin-react-native: ^4.1.0
     eslint-plugin-react-native-a11y: ^3.3.0
   peerDependencies:
-    eslint: ^8.51.0
+    eslint: ^8.55.0
   languageName: unknown
   linkType: soft
 
