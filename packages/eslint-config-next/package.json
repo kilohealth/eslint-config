@@ -15,10 +15,10 @@
   "main": "./index.js",
   "dependencies": {
     "@kilohealth/eslint-config-react": "^1.7.0",
-    "@next/eslint-plugin-next": "^14.0.1"
+    "@next/eslint-plugin-next": "^14.0.4"
   },
   "peerDependencies": {
-    "eslint": "^8.51.0"
+    "eslint": "^8.55.0"
   },
   "packageManager": "yarn@3.2.2",
   "publishConfig": {
