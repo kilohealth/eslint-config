@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-react-native@1.7.0...@kilohealth/eslint-config-react-native@1.8.0) (2023-12-15)
+
+### Features
+
+- update @kilohealth/eslint-config-react-native dependencies ([62331f6](https://github.com/kilohealth/eslint-config/commit/62331f6e88c25f7c81fb541dbb43816b70077628))
+
 # [1.7.0](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-react-native@1.6.3...@kilohealth/eslint-config-react-native@1.7.0) (2023-10-09)
 
 ### Features

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-react@1.7.0...@kilohealth/eslint-config-react@1.8.0) (2023-12-15)
+
+### Features
+
+- update @kilohealth/eslint-config-react ([6413a37](https://github.com/kilohealth/eslint-config/commit/6413a370b93f91239b391716f8a11a457aa587b8))
+
 # [1.7.0](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-react@1.6.3...@kilohealth/eslint-config-react@1.7.0) (2023-10-09)
 
 ### Features

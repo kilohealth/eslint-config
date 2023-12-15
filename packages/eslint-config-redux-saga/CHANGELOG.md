@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-redux-saga@1.7.0...@kilohealth/eslint-config-redux-saga@1.8.0) (2023-12-15)
+
+### Features
+
+- update @kilohealth/eslint-config-redux-saga dependencies ([60bce9d](https://github.com/kilohealth/eslint-config/commit/60bce9db8b01e1f457a36c4a696507bdb0528750))
+
 # [1.7.0](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-redux-saga@1.6.0...@kilohealth/eslint-config-redux-saga@1.7.0) (2023-10-09)
 
 ### Features

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.9.0](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-next@1.8.0...@kilohealth/eslint-config-next@1.9.0) (2023-12-15)
+
+### Features
+
+- update @kilohealth/eslint-config-next dependencies ([9e1b6d7](https://github.com/kilohealth/eslint-config/commit/9e1b6d78e9fdb2bcf8524c84610183e2a17a86f6))
+
 # [1.8.0](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-next@1.7.0...@kilohealth/eslint-config-next@1.8.0) (2023-11-03)
 
 ### Features

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node@2.0.0...@kilohealth/eslint-config-node@2.1.0) (2023-12-15)
+
+### Features
+
+- update @kilohealth/eslint-config-node dependencies ([2a30881](https://github.com/kilohealth/eslint-config/commit/2a3088106bc3ce85a3b34342573544f56d9d3c7e))
+
 # [2.0.0](https://github.com/kilohealth/eslint-config/compare/@kilohealth/eslint-config-node@1.8.0...@kilohealth/eslint-config-node@2.0.0) (2023-10-09)
 
 ### Features
