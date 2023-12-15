@@ -188,7 +188,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-validator-identifier@npm:^7.22.20, @babel/helper-validator-identifier@npm:^7.22.5":
+"@babel/helper-validator-identifier@npm:^7.22.20":
   version: 7.22.20
   resolution: "@babel/helper-validator-identifier@npm:7.22.20"
   checksum: 136412784d9428266bcdd4d91c32bcf9ff0e8d25534a9d94b044f77fe76bc50f941a90319b05aafd1ec04f7d127cd57a179a3716009ff7f3412ef835ada95bdc
@@ -652,11 +652,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@kilohealth/eslint-config-node@workspace:packages/eslint-config-node"
   dependencies:
-    "@shopify/eslint-plugin": ^43.0.0
-    eslint-plugin-unicorn: ^48.0.1
+    "@shopify/eslint-plugin": ^44.0.0
+    eslint-plugin-unicorn: ^49.0.0
     eslint-restricted-globals: ^0.2.0
   peerDependencies:
-    eslint: ^8.51.0
+    eslint: ^8.55.0
   languageName: unknown
   linkType: soft
 
@@ -1253,9 +1253,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shopify/eslint-plugin@npm:^43.0.0":
-  version: 43.0.0
-  resolution: "@shopify/eslint-plugin@npm:43.0.0"
+"@shopify/eslint-plugin@npm:^44.0.0":
+  version: 44.0.0
+  resolution: "@shopify/eslint-plugin@npm:44.0.0"
   dependencies:
     "@babel/eslint-parser": ^7.16.3
     "@babel/eslint-plugin": ^7.14.5
@@ -1282,7 +1282,7 @@ __metadata:
     pluralize: ^8.0.0
   peerDependencies:
     eslint: ^8.3.0
-  checksum: 672ad818230afb77ba11b7de1c4f2b6dca1c33796924a8c961b951471bf2287cb8e78f1c29ded69a37b3a31885f44b731137c61f442ccde8cc027f438484fda9
+  checksum: 4c7a4346384eb83ec1244d163ced14147f15ab143b6f0f21c7048ddea3c04d59293a520a11685f0bf696ce3c0efda703c388af0ce21289ddeef067ce70b6128d
   languageName: node
   linkType: hard
 
@@ -3521,11 +3521,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:^48.0.1":
-  version: 48.0.1
-  resolution: "eslint-plugin-unicorn@npm:48.0.1"
+"eslint-plugin-unicorn@npm:^49.0.0":
+  version: 49.0.0
+  resolution: "eslint-plugin-unicorn@npm:49.0.0"
   dependencies:
-    "@babel/helper-validator-identifier": ^7.22.5
+    "@babel/helper-validator-identifier": ^7.22.20
     "@eslint-community/eslint-utils": ^4.4.0
     ci-info: ^3.8.0
     clean-regexp: ^1.0.0
@@ -3533,7 +3533,6 @@ __metadata:
     indent-string: ^4.0.0
     is-builtin-module: ^3.2.1
     jsesc: ^3.0.2
-    lodash: ^4.17.21
     pluralize: ^8.0.0
     read-pkg-up: ^7.0.1
     regexp-tree: ^0.1.27
@@ -3541,8 +3540,8 @@ __metadata:
     semver: ^7.5.4
     strip-indent: ^3.0.0
   peerDependencies:
-    eslint: ">=8.44.0"
-  checksum: e63112cbaa3a1347cbb427160d7b3c6a1f8cc8ef512075a0ab285c64761772356f4eb5f82c9fb1a8cde63d8794f8aa819eda02fa0a7c44bc9955c5113f87be78
+    eslint: ">=8.52.0"
+  checksum: 7580dc96b2edd26d10c1671e575d8ed26df87405f8a535f69f718187aecd64a89402c5dca40ee4a873ed8822496445451b50d9b9a52555b74f053af00fa98c0b
   languageName: node
   linkType: hard
 
